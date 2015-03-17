@@ -1,0 +1,59 @@
+% This file was created with JabRef 2.10.
+% Encoding: Cp1252
+
+
+@Article{,
+  Title                    = {Optimal Strategy for Casino Blackjack: A Markov Chain Approach},
+  Author                   = {Kevin Coltin},
+  Year                     = {2012},
+
+  File                     = {:C\:\\Users\\Daan\\Desktop\\BlackJack\\optimal_strategy_for_casino_blackjack.pdf:PDF},
+  Owner                    = {Daan},
+  Timestamp                = {2015.03.14}
+}
+
+@MastersThesis{,
+  Title                    = {THE KELLY CRITERION IN BLACKJACK SPORTS BETTING, AND THE STOCK MARKET},
+  Author                   = {EDWARD O. THORP},
+  School                   = {Edward O. Thorp and Associates, Newport Beach, CA 92660, USA},
+  Year                     = {1997},
+
+  File                     = {:C\:\\Users\\Daan\\Desktop\\BlackJack\\KellyCriterion2007.pdf:PDF},
+  Owner                    = {Daan},
+  Timestamp                = {2015.03.14}
+}
+
+@PhdThesis{,
+  Title                    = {A Markov Chain Analysis of Blackjack Strategy},
+  Author                   = {Michael B. Wakin and Christopher J. Rozell},
+  School                   = {Department of Electrical and Computer Engineering,
+Rice University},
+
+  File                     = {:C\:\\Users\\Daan\\Desktop\\BlackJack\\mcbj.pdf:PDF},
+  Owner                    = {Daan},
+  Timestamp                = {2015.03.14}
+}
+
+@PhdThesis{,
+  Title                    = {Markovian Blackjack Simulator},
+  Author                   = {Jonathan Yu},
+  School                   = {University of Massachusetts: Lowell},
+  Year                     = {2012},
+
+  File                     = {:yu_blackjack_mdp.pdf:PDF},
+  Owner                    = {Daan},
+  Timestamp                = {2015.03.14}
+}
+
+@PhdThesis{,
+  Title                    = {Economic Analysis of Blackjack: An Application of
+Prospect Theory},
+  Author                   = {Kam Yu and Huan Wang},
+  School                   = {University of Toronto},
+  Year                     = {2009},
+
+  File                     = {:0114.pdf:PDF},
+  Owner                    = {Daan},
+  Timestamp                = {2015.03.16}
+}
+
