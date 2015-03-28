@@ -3,32 +3,82 @@
 \title{Project BlackJack}
 \author{
 \IEEEauthorblockN{Jelle Biebaut, Daan Delva, Jari Meire, Niels Wauters}
-\IEEEauthorblockA{HoGent\\Onderzoekstechnieken\\}}
+\IEEEauthorblockA{HoGent\\Onderzoekstechnieken\\Groep16}}
 \maketitle
 
 \IEEEpeerreviewmaketitle
 
 \section{Inleiding}
-Dit project werd gemaakt in \LaTeX\ er werd
-IEEEtran.cls versie 1.7 en later gebruikt.
-Geniet van dit spannende onderzoek!
+Blackjack is een card game met eenvoudige spelregels. Een speler probeert om een score te behalen zo dicht mogelijk bij 21 zonder dat hij erboven gaat, tegen een dealer. Zolang dat geen van beide boven de 21 gaan, wint de hoogste score. Maar achter dit spel zijn een verschillende strategie\"en bedacht om zo veel mogelijk te kunnen winnen. In deze paper gaan we uitzoeken welke strategie het beste is om zo veel mogelijk spelletjes te winnen. We gaan gebruik maken van simulatie software om zo rapper tot de resultaten te komen.
  
-\hfill Maart 17, 2015
+\hfill Maart 28, 2015
 
-\subsection{Onderzoeksvraag 1}
-Wat is de beste strategie? Dat zouden we wel 'ns willen weten.
+\subsection{Onderzoeksvraag}
+Wat is de beste strategie?
 
 
-\subsubsection{De vraag van vandaag:}
-Hit of stand bij 17 als dealer face up card een aas is?
 
-\section{Conclusie}
+\section{Strategie\"en}
+
+
+
+\subsection{Basic strategy}
+
+Dit is een strategie die gekopieert is van ervaren gokkers. In onze simulatie maken we gebruik 4 of meerdere deck. Als je blackjack hebt dan krijg je 3:2 uitbetaling. De dealer stands als hij een soft 17 heeft en het is toegestaan om een double te doen achter dat je gesplit hebt. 
+
+$%begin{table}[ht]
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+
+{Player hand} & \multicolumn{10}{c|}{Dealer's face-up card}     \\ \cline{2-11} 
+                             & 2  & 3  & 4  & 5  & 6  & 7  & 8  & 9  & 10 & A  \\ \hline
+\multicolumn{11}{|c|}{Hard totals}                                             \\ \hline
+17-20       								& S  & S  & S  & S  & S  & S  & S  & S  & S  & S  \\ \hline
+16                           & S  & S  & S  & S  & S  & H  & H  & H  & H  & H  \\ \hline
+15                           & S  & S  & S  & S  & S  & H  & H  & H  & H  & H  \\ \hline
+13-14                        & S  & S  & S  & S  & S  & H  & H  & H  & H  & H  \\ \hline
+12                           & H  & H  & S  & S  & S  & H  & H  & H  & H  & H  \\ \hline
+11                           & DH & DH & DH & DH & DH & DH & DH & DH & DH & H  \\ \hline
+10                           & DH & DH & DH & DH & DH & DH & DH & DH & H  & H  \\ \hline
+9                            & H  & DH & DH & DH & DH & H  & H  & H  & H  & H  \\ \hline
+5-8                          & H  & H  & H  & H  & H  & H  & H  & H  & H  & H  \\ \hline
+\multicolumn{11}{|c|}{Soft totals}                                             \\ \hline
+                             & 2  & 3  & 4  & 5  & 6  & 7  & 8  & 9  & 10 & A  \\ \hline
+A,8-A,9                      & S  & S  & S  & S  & S  & S  & S  & S  & S  & S  \\ \hline
+A,7                          & S  & DS & DS & DS & DS & S  & S  & H  & H  & H  \\ \hline
+A,6                          & H  & DH & DH & DH & DH & H  & H  & H  & H  & H  \\ \hline
+A,4-A,5                      & H  & H  & DH & DH & DH & H  & H  & H  & H  & H  \\ \hline
+A,2-A,3                      & H  & H  & H  & DH & DH & H  & H  & H  & H  & H  \\ \hline
+\multicolumn{11}{|c|}{Pairs}                                                   \\ \hline
+                             & 2  & 3  & 4  & 5  & 6  & 7  & 8  & 9  & 10 & A  \\ \hline
+A,A                          & SP & SP & SP & SP & SP & SP & SP & SP & SP & SP \\ \hline
+10,10                        & S  & S  & S  & S  & S  & S  & S  & S  & S  & S  \\ \hline
+9,9                          & SP & SP & SP & SP & SP & S  & SP & SP & S  & S  \\ \hline
+8,8                          & SP & SP & SP & SP & SP & SP & SP & SP & SP & SP \\ \hline
+7,7                          & SP & SP & SP & SP & SP & SP & H  & H  & H  & H  \\ \hline
+6,6                          & SP & SP & SP & SP & SP & H  & H  & H  & H  & H  \\ \hline
+5,5                          & DH & DH & DH & DH & DH & DH & DH & DH & H  & H  \\ \hline
+4,4                          & H  & H  & H  & SP & SP & H  & H  & H  & H  & H  \\ \hline
+2,2-3,3                      & SP & SP & SP & SP & SP & SP & H  & H  & H  & H  \\ \hline
+\end{tabular}
+
+%\end{table}
+
+Zoals hierboven afgebeeld heeft de speler de mogelijkheid om te hitten(H),Stand(S),Double then hit(DH),Double then stand(DS) of om te splitten(SP). Om een voorbeeld te geven uit bovenstaande tabel, als de speler een hard total heeft van 15, dan moet hij standen als de dealer kaart lager is dan 7 of anders moet hij hitten.
+
+
+
+
+
+\subsection{Simple strategy}
+dit is leeg
+\subsection{Counting cards}
 Top project, geslaagd met onderscheiding.
 
 \section*{Varia}
 
 
-The authors would like to thank... de vele uitleg en hulp die we kregen.
+
 
 \begin{thebibliography}{1}
 
