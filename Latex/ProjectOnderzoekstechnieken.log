@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.17)  28 MAR 2015 17:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.17)  29 MAR 2015 11:13
 entering extended mode
 **ProjectOnderzoekstechnieken.tex
 (C:\Users\Daan\Desktop\BlackJack\ProjectOnderzoekstechnieken16\Latex\ProjectOnderzoekstechnieken.tex
@@ -121,33 +121,16 @@ LaTeX Font Info:    ... okay on input line 2.
 
 -- Lines per column: 56 (exact).
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 30.
+(Font)              <8> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 30.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.64 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-
-Overfull \hbox (79.56918pt too wide) in paragraph at lines 29--64
-[]$[]$ 
+Overfull \hbox (31.6553pt too wide) in paragraph at lines 30--64
+[][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 86.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 86.
- [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -159,21 +142,25 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-] (C:\Users\Daan\Desktop\BlackJack\ProjectOnderzoekstechnieken16\Latex\ProjectOnderzoekstechnieken.aux) ) 
+
+] [2
+
+]
+(C:\Users\Daan\Desktop\BlackJack\ProjectOnderzoekstechnieken16\Latex\ProjectOnderzoekstechnieken.aux) ) 
 Here is how much of TeX's memory you used:
- 1031 strings out of 493921
- 19433 string characters out of 3147285
- 90514 words of memory out of 3000000
- 4391 multiletter control sequences out of 15000+200000
+ 1030 strings out of 493921
+ 19419 string characters out of 3147285
+ 91514 words of memory out of 3000000
+ 4390 multiletter control sequences out of 15000+200000
  35447 words of font info for 69 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  26i,8n,19p,572b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Fil
-es/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ProjectOnderzoekstechnieken.pdf (2 pages, 36323 bytes).
+{C:/Program Files
+/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on ProjectOnderzoekstechnieken.pdf (2 pages, 36445 bytes).
 PDF statistics:
  18 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
