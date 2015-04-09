@@ -14,7 +14,7 @@ Blackjack is een card game met eenvoudige spelregels. Een speler probeert om een
 \hfill Maart 28, 2015
 
 \subsection{Onderzoeksvraag}
-Wat is de beste strategie?
+Wat is de beste strategie om de hoogste winst te bekomen?
 
 
 
@@ -24,7 +24,7 @@ In het spel blackjack zijn er verschillende strategie\"en uitgevonden om zo veel
 
 \subsection{Basic strategy}
 
-Dit is een strategie die gekopie\"ert is van ervaren gokkers. In onze simulatie maken we gebruik van 4 of meerdere deck. Als je blackjack hebt dan krijg je 3:2 uitbetaling. De dealer stands als hij een soft 17 heeft en het is toegestaan om een double te doen achter dat je gesplit hebt. 
+Dit is een strategie die we gekopie\"erd hebben van ervaren gokkers. In onze simulatie maken we gebruik van 4 of meerdere decks. Als je blackjack hebt dan krijg je 3:2 uitbetaling. De dealer stands als hij een soft 17 heeft en het is toegestaan om een double te doen achter dat je gesplit hebt. 
 
 \begin{table}[ht]
 \tiny
@@ -34,7 +34,7 @@ Dit is een strategie die gekopie\"ert is van ervaren gokkers. In onze simulatie 
 {Player hand} & \multicolumn{10}{c|}{Dealer's face-up card}     \\ \cline{2-11} 
                              & 2  & 3  & 4  & 5  & 6  & 7  & 8  & 9  & 10 & A  \\ \hline
 \multicolumn{11}{|c|}{Hard totals}                                             \\ \hline
-17-20       								& S  & S  & S  & S  & S  & S  & S  & S  & S  & S  \\ \hline
+17-20       								 & S  & S  & S  & S  & S  & S  & S  & S  & S  & S  \\ \hline
 16                           & S  & S  & S  & S  & S  & H  & H  & H  & H  & H  \\ \hline
 15                           & S  & S  & S  & S  & S  & H  & H  & H  & H  & H  \\ \hline
 13-14                        & S  & S  & S  & S  & S  & H  & H  & H  & H  & H  \\ \hline
@@ -65,7 +65,7 @@ A,A                          & SP & SP & SP & SP & SP & SP & SP & SP & SP & SP \
 
 \end{table}
 
-Zoals hierboven afgebeeld heeft de speler de mogelijkheid om te Hitten(H),Stand(S),Double then hit(DH),Double then stand(DS) of om te splitten(SP). Om een voorbeeld te geven uit bovenstaande tabel, als de speler een hard total heeft van 15, dan moet hij standen als de dealer kaart lager is dan 7 of anders moet hij hitten.
+Zoals hierboven afgebeeld heeft de speler de mogelijkheid om te Hitten (H), Stand (S), Double then hit (DH), Double then stand (DS) of om te splitten (SP). Om een voorbeeld te geven uit bovenstaande tabel, als de speler een hard total heeft van 15, dan moet hij standen als de dealer kaart lager is dan 7, anders moet hij hitten.
 
 
 
