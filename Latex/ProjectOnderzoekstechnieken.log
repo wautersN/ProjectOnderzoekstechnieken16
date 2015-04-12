@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.10)  9 APR 2015 11:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.10)  12 APR 2015 12:27
 entering extended mode
 **ProjectOnderzoekstechnieken.tex
 
@@ -138,12 +138,45 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 
 -- Lines per column: 56 (exact).
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 31.
+(Font)              <7> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 89.
+(Font)              <5> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 89.
+(Font)              <8> on input line 25.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 25.
+
+Underfull \hbox (badness 1803) in paragraph at lines 40--41
+[]\OT1/ptm/m/n/10 In deze para-graaf gaan we onze beste 4 strate-gie[]en
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+[1{C:/Users/Jelle/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
+Underfull \hbox (badness 2538) in paragraph at lines 239--244
+ \OT1/ptm/m/it/10 e) De beste strate-gie: [][] \OT1/ptm/m/n/10 Uit onze re-sul-
+taten na het
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--244
+
+ []
+
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no « in font ptmr7t!
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -155,26 +188,24 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{C:/Users/Jelle/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
-]
+[2]
 (C:\Users\Jelle\Documents\GitHub\ProjectOnderzoekstechnieken16\Latex\ProjectOnd
 erzoekstechnieken.aux) ) 
 Here is how much of TeX's memory you used:
- 1031 strings out of 493921
- 19401 string characters out of 3148886
- 91514 words of memory out of 3000000
- 4390 multiletter control sequences out of 15000+200000
- 36525 words of font info for 70 fonts, out of 3000000 for 9000
+ 1037 strings out of 493921
+ 19452 string characters out of 3148886
+ 131514 words of memory out of 3000000
+ 4392 multiletter control sequences out of 15000+200000
+ 41402 words of font info for 75 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 26i,8n,19p,572b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 26i,8n,19p,474b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MikTex/fonts/enc/dvips/fontname/8r.en
-c}<C:/Program Files/MikTex/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/M
-ikTex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ProjectOnderzoekstechnieken.pdf (1 page, 36541 bytes).
+c}<C:/Program Files/MikTex/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/M
+ikTex/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MikTex/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on ProjectOnderzoekstechnieken.pdf (2 pages, 65397 bytes).
 PDF statistics:
- 15 PDF objects out of 1000 (max. 8388607)
+ 22 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,76 +9,262 @@
 \IEEEpeerreviewmaketitle
 
 \section{Inleiding}
-Blackjack is een card game met eenvoudige spelregels. Een speler probeert om een score te behalen zo dicht mogelijk bij 21 zonder dat hij erboven gaat, tegen een dealer. Zolang dat geen van beide boven de 21 gaan, wint de hoogste score. Maar achter dit spel zijn een verschillende strategie\"en bedacht om zo veel mogelijk te kunnen winnen. In deze paper gaan we uitzoeken welke strategie het beste is om zo veel mogelijk spelletjes te winnen. We gaan gebruik maken van simulatie software om zo rapper tot de resultaten te komen.
+Blackjack is een {\it card game} met eenvoudige spelregels. Een speler probeert een score te behalen zo dicht mogelijk bij 21 zonder dat hij erboven gaat, hetzelfde geldt voor de dealer. Zolang dat geen van beide boven de 21 gaat, wint de hoogste score. Als beide spelers een gelijke score hebben, wint de dealer.
+Maar achter dit spel zijn verschillende strategie\"en bedacht om zo veel mogelijk te kunnen winnen. In deze paper gaan we uitzoeken welke opties je het beste resultaat geven. Hierbij maken we gebruik van simulatie-software om zo sneller tot de resultaten te komen.\\*
  
-\hfill Maart 28, 2015
+\hfill April 12, 2015
 
 \subsection{Onderzoeksvraag}
-Wat is de beste strategie om de hoogste winst te bekomen?
+\textbf{Welke strategie geeft je het meeste kans op een positieve winst ?}\\*
+Dit gaan we nagaan door onze beste eigen strategie naast een aantal bestaande strategie\"en te leggen.
+Daarna te vergelijken via onze simulatie software wanneer we de grootste kans hebben op een positieve winst. Daaruit hopen we een goed resultaat te halen dat ons zal helpen bij het bepalen van de beste strategie.
 
+\subsection{Deelonderzoeksvraag} 
+\textbf{Welke opties geven je het meeste kans op een positieve winst ?} 
+\footnote{ Deze opties zijn {\it dealer stand of hit op een soft 17}, {\it verdubbelen van inzet bij elk paar of enkel bij 9, 10 of 11},
+    {\it verdubbelen van inzet na elke split is toegestaan of niet} en {\it surrenderen of niet}}\\*
+We gaan na welke van deze opties de meest effici\"entste combinatie is en waarbij we dus de meeste kans hebben op een positieve winst.
+We onderzoeken eerst alle strategie\"en met onze eerste 3 opties (dealer stand of hit op een soft 17, verdubbelen van inzet bij elk paar of enkel bij 9, 10 of 11 en verdubbelen van inzet na elke split is toegestaan of niet). Daarna kiezen we de beste 4 strategie\"en en passen we onze laatste optie daar op toe om zo tot onze eigen beste strategie te komen. \\*
+We zorgen ervoor dat onze inzet nooit veranderd, onze standaard inzet is steeds 1\$, via onze simulatie software krijgen we steeds een \textit{average profit}, \textit{house edge}, de kans op een winst groter dan 5\$ en een verlies groter dan 5\$. 
 
+\newpage
 
 \section{Strategie\"en}
-In het spel blackjack zijn er verschillende strategie\"en uitgevonden om zo veel mogelijk te kunnen winnnen. In onze paper gaan we ze niet allemaal bespreken, maar enkel de strategie\"en die het meest gebruikt worden.
+We gaan eerst onderzoeken welke van onze opties het beste resultaat geeft. Bij elk van onze opties hebben we een \textit{basic strategy}
+opgesteld en deze in onze simulator gestoken. Dus strategie 1 is de combinatie van dealer stands op een soft 17, we verdubbelen alle paren en
+verdubbeling na een split is niet toegestaan. Strategie 2 is de combinatie van dealer stands op een soft 17, we verdubbelen alle paren en
+verdubbeling na een split is toegestaan. En zo gaan we verder tot we in elke strategie een andere combinatie hebben van onze opties.\\*
+Hierna gaan we alle strategie\"en vergelijken met elkaar en halen we er de 4 beste uit en daar passen we onze laatste optie op toe, \textit{surrender}. Onze simulatie doen we steeds met 6 decks en de speler mag split doen tot een maximum van 4 handen.
+
+\subsection{Welke van onze eigen strategie is het beste ? (Deel 1)}
+In deze paragraaf gaan we onze beste 4 strategie\"en bespreken zonder de surrender, daarna bespreken we de beste 2 strategie\"en met surrender.\\*
 
 
-\subsection{Basic strategy}
+\paragraph{Strategie 1}
+% Dit is onze strategie 2 in het document "Soorten strategie\"en"
 
-Dit is een strategie die we gekopie\"erd hebben van ervaren gokkers. In onze simulatie maken we gebruik van 4 of meerdere decks. Als je blackjack hebt dan krijg je 3:2 uitbetaling. De dealer stands als hij een soft 17 heeft en het is toegestaan om een double te doen achter dat je gesplit hebt. 
+Deze strategie bestaat uit de combinatie van dealer stands op een soft 17, we verdubbelen de inzet bij alle paren en verdubbeling van de inzet na een split is toegestaan. \footnote{ Bij bovenstaande tabel betekenen volgende letters dit: S staat voor player Stand, H staat voor player Hit, D staat voor Double en Hit als double toegestaan is, DS staat voor Double en Stand als double niet toegestaan is en P staat voor Split}
+Dan bekomen we deze \textit{basic strategy} :
 
 \begin{table}[ht]
 \tiny
+\centering
 \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
 \hline
 
 {Player hand} & \multicolumn{10}{c|}{Dealer's face-up card}     \\ \cline{2-11} 
-                             & 2  & 3  & 4  & 5  & 6  & 7  & 8  & 9  & 10 & A  \\ \hline
-\multicolumn{11}{|c|}{Hard totals}                                             \\ \hline
-17-20       								 & S  & S  & S  & S  & S  & S  & S  & S  & S  & S  \\ \hline
-16                           & S  & S  & S  & S  & S  & H  & H  & H  & H  & H  \\ \hline
-15                           & S  & S  & S  & S  & S  & H  & H  & H  & H  & H  \\ \hline
-13-14                        & S  & S  & S  & S  & S  & H  & H  & H  & H  & H  \\ \hline
-12                           & H  & H  & S  & S  & S  & H  & H  & H  & H  & H  \\ \hline
-11                           & DH & DH & DH & DH & DH & DH & DH & DH & DH & H  \\ \hline
-10                           & DH & DH & DH & DH & DH & DH & DH & DH & H  & H  \\ \hline
-9                            & H  & DH & DH & DH & DH & H  & H  & H  & H  & H  \\ \hline
-5-8                          & H  & H  & H  & H  & H  & H  & H  & H  & H  & H  \\ \hline
-\multicolumn{11}{|c|}{Soft totals}                                             \\ \hline
-                             & 2  & 3  & 4  & 5  & 6  & 7  & 8  & 9  & 10 & A  \\ \hline
-A,8-A,9                      & S  & S  & S  & S  & S  & S  & S  & S  & S  & S  \\ \hline
-A,7                          & S  & DS & DS & DS & DS & S  & S  & H  & H  & H  \\ \hline
-A,6                          & H  & DH & DH & DH & DH & H  & H  & H  & H  & H  \\ \hline
-A,4-A,5                      & H  & H  & DH & DH & DH & H  & H  & H  & H  & H  \\ \hline
-A,2-A,3                      & H  & H  & H  & DH & DH & H  & H  & H  & H  & H  \\ \hline
-\multicolumn{11}{|c|}{Pairs}                                                   \\ \hline
-                             & 2  & 3  & 4  & 5  & 6  & 7  & 8  & 9  & 10 & A  \\ \hline
-A,A                          & SP & SP & SP & SP & SP & SP & SP & SP & SP & SP \\ \hline
-10,10                        & S  & S  & S  & S  & S  & S  & S  & S  & S  & S  \\ \hline
-9,9                          & SP & SP & SP & SP & SP & S  & SP & SP & S  & S  \\ \hline
-8,8                          & SP & SP & SP & SP & SP & SP & SP & SP & SP & SP \\ \hline
-7,7                          & SP & SP & SP & SP & SP & SP & H  & H  & H  & H  \\ \hline
-6,6                          & SP & SP & SP & SP & SP & H  & H  & H  & H  & H  \\ \hline
-5,5                          & DH & DH & DH & DH & DH & DH & DH & DH & H  & H  \\ \hline
-4,4                          & H  & H  & H  & SP & SP & H  & H  & H  & H  & H  \\ \hline
-2,2-3,3                      & SP & SP & SP & SP & SP & SP & H  & H  & H  & H  \\ \hline
-\end{tabular}
+                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
+\multicolumn{11}{|c|}{\textbf{Hard totals}}                           \\ \hline
+17-20       								 & S & S & S & S & S & S & S & S & S & S  \\ \hline
+16                           & S & S & S & S & S & H & H & H & H & H  \\ \hline
+15                           & S & S & S & S & S & H & H & H & H & H  \\ \hline
+13-14                        & S & S & S & S & S & H & H & H & H & H  \\ \hline
+12                           & H & H & S & S & S & H & H & H & H & H  \\ \hline
+11                           & D & D & D & D & D & D & D & D & D & H  \\ \hline
+10                           & D & D & D & D & D & D & D & D & H & H  \\ \hline
+9                            & H & D & D & D & D & H & H & H & H & H  \\ \hline
+5-8                          & H & H & H & H & H & H & H & H & H & H  \\ \hline
 
+\multicolumn{11}{|c|}{\textbf{Soft totals}}                           \\ \hline
+                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
+A,8-A,9                      & S & S & S & S & S & S & S & S & S & S  \\ \hline
+A,7                          & S & DS & DS & DS & DS & S & S & H & H & H  \\ \hline
+A,6                          & H & D & D & D & D & H & H & H & H & H  \\ \hline
+A,4-A,5                      & H & H & D & D & D & H & H & H & H & H  \\ \hline
+A,2-A,3                      & H & H & H & D & D & H & H & H & H & H  \\ \hline
+
+\multicolumn{11}{|c|}{\textbf{Pairs}}                                 \\ \hline
+                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
+A,A                          & P & P & P & P & P & P & P & P & P & P  \\ \hline
+10,10                        & S & S & S & S & S & S & S & S & S & S  \\ \hline
+9,9                          & P & P & P & P & P & S & P & P & S & S  \\ \hline
+8,8                          & P & P & P & P & P & P & P & P & P & P  \\ \hline
+7,7                          & P & P & P & P & P & P & H & H & H & H  \\ \hline
+6,6                          & H & P & P & P & P & H & H & H & H & H  \\ \hline
+5,5                          & D & D & D & D & D & D & D & D & H & H  \\ \hline
+4,4                          & H & H & H & H & H & H & H & H & H & H  \\ \hline
+2,2-3,3                      & H & H & P & P & P & P & H & H & H & H  \\ \hline
+\end{tabular}
 \end{table}
 
-Zoals hierboven afgebeeld heeft de speler de mogelijkheid om te Hitten (H), Stand (S), Double then hit (DH), Double then stand (DS) of om te splitten (SP). Om een voorbeeld te geven uit bovenstaande tabel, als de speler een hard total heeft van 15, dan moet hij standen als de dealer kaart lager is dan 7, anders moet hij hitten.
+
+\paragraph{Strategie 2}
+% Dit is onze strategie 3 in het document "Soorten strategie\"en"
+
+Deze strategie bestaat uit de combinatie van dealer stands op een soft 17, we verdubbelen de inzet alleen bij de paren 9, 10 en 11 en verdubbeling van de inzet na een split is toegestaan.\\*
+Dan bekomen we deze \textit{basic strategy} :
+
+\begin{table}[ht]
+\tiny
+\centering
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+
+{Player hand} & \multicolumn{10}{c|}{Dealer's face-up card}     \\ \cline{2-11} 
+                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
+\multicolumn{11}{|c|}{\textbf{Hard totals}}                           \\ \hline
+17-20       								 & S & S & S & S & S & S & S & S & S & S  \\ \hline
+16                           & S & S & S & S & S & H & H & H & H & H  \\ \hline
+15                           & S & S & S & S & S & H & H & H & H & H  \\ \hline
+13-14                        & S & S & S & S & S & H & H & H & H & H  \\ \hline
+12                           & H & H & S & S & S & H & H & H & H & H  \\ \hline
+11                           & D & D & D & D & D & D & D & D & D & H  \\ \hline
+10                           & D & D & D & D & D & D & D & D & H & H  \\ \hline
+9                            & H & D & D & D & D & H & H & H & H & H  \\ \hline
+5-8                          & H & H & H & H & H & H & H & H & H & H  \\ \hline
+
+\multicolumn{11}{|c|}{\textbf{Soft totals}}                           \\ \hline
+                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
+A,8-A,9                      & S & S & S & S & S & S & S & S & S & S  \\ \hline
+A,7                          & S & S & S & S & S & S & S & H & H & H  \\ \hline
+A,6                          & H & H & H & H & H & H & H & H & H & H  \\ \hline
+A,4-A,5                      & H & H & H & H & H & H & H & H & H & H  \\ \hline
+A,2-A,3                      & H & H & H & H & H & H & H & H & H & H  \\ \hline
+
+\multicolumn{11}{|c|}{\textbf{Pairs}}                                 \\ \hline
+                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
+A,A                          & P & P & P & P & P & P & P & P & P & P  \\ \hline
+10,10                        & S & S & S & S & S & S & S & S & S & S  \\ \hline
+9,9                          & P & P & P & P & P & S & P & P & S & S  \\ \hline
+8,8                          & P & P & P & P & P & P & P & P & P & P  \\ \hline
+7,7                          & P & P & P & P & P & P & H & H & H & H  \\ \hline
+6,6                          & P & P & P & P & P & H & H & H & H & H  \\ \hline
+5,5                          & D & D & D & D & D & D & D & D & H & H  \\ \hline
+4,4                          & H & H & H & P & P & H & H & H & H & H  \\ \hline
+2,2-3,3                      & P & P & P & P & P & P & H & H & H & H  \\ \hline
+\end{tabular}
+\end{table}
+
+
+
+\paragraph{Strategie 3}
+% Dit is onze strategie 7 in het document "Soorten strategie\"en"
+
+Deze strategie bestaat uit de combinatie van dealer hits op een soft 17, we verdubbelen de inzet bij alle paren en verdubbeling van inzet na een split is toegestaan.\\*
+Dan bekomen we deze \textit{basic strategy} :
+
+\begin{table}[ht]
+\tiny
+\centering
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+
+{Player hand} & \multicolumn{10}{c|}{Dealer's face-up card}     \\ \cline{2-11} 
+                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
+\multicolumn{11}{|c|}{\textbf{Hard totals}}                           \\ \hline
+17-20       								 & S & S & S & S & S & S & S & S & S & S  \\ \hline
+16                           & S & S & S & S & S & H & H & H & H & H  \\ \hline
+15                           & S & S & S & S & S & H & H & H & H & H  \\ \hline
+13-14                        & S & S & S & S & S & H & H & H & H & H  \\ \hline
+12                           & H & H & S & S & S & H & H & H & H & H  \\ \hline
+11                           & D & D & D & D & D & D & D & D & D & H  \\ \hline
+10                           & D & D & D & D & D & D & D & D & H & H  \\ \hline
+9                            & H & D & D & D & D & H & H & H & H & H  \\ \hline
+5-8                          & H & H & H & H & H & H & H & H & H & H  \\ \hline
+
+\multicolumn{11}{|c|}{\textbf{Soft totals}}                           \\ \hline
+                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
+A,8-A,9                      & S & S & S & S & DS & S & S & S & S & S  \\ \hline
+A,7                          & DS & DS & DS & DS & DS & S & S & H & H & H  \\ \hline
+A,6                          & H & D & D & D & D & H & H & H & H & H  \\ \hline
+A,4-A,5                      & H & H & D & D & D & H & H & H & H & H  \\ \hline
+A,2-A,3                      & H & H & H & D & D & H & H & H & H & H  \\ \hline
+
+\multicolumn{11}{|c|}{\textbf{Pairs}}                                 \\ \hline
+                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
+A,A                          & P & P & P & P & P & P & P & P & P & P  \\ \hline
+10,10                        & S & S & S & S & S & S & S & S & S & S  \\ \hline
+9,9                          & P & P & P & P & P & S & P & P & S & S  \\ \hline
+8,8                          & P & P & P & P & P & P & P & P & P & P  \\ \hline
+7,7                          & P & P & P & P & P & P & H & H & H & H  \\ \hline
+6,6                          & P & P & P & P & P & H & H & H & H & H  \\ \hline
+5,5                          & D & D & D & D & D & D & D & D & H & H  \\ \hline
+4,4                          & H & H & H & H & H & H & H & H & H & H  \\ \hline
+2,2-3,3                      & P & P & P & P & P & P & H & H & H & H  \\ \hline
+\end{tabular}
+\end{table}
+
+\newpage
+
+\paragraph{Strategie 4}
+% Dit is onze strategie 9 in het document "Soorten strategie\"en"
+
+Deze strategie bestaat uit de combinatie van dealer hits op een soft 17, we verdubbelen de inzet alleen bij de paren 9, 10 en 11 en verdubbeling na een split is toegestaan.\\*
+Dan bekomen we deze \textit{basic strategy} :
+
+\begin{table}[ht]
+\tiny
+\centering
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+
+{Player hand} & \multicolumn{10}{c|}{Dealer's face-up card}     \\ \cline{2-11} 
+                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
+\multicolumn{11}{|c|}{\textbf{Hard totals}}                           \\ \hline
+17-20       								 & S & S & S & S & S & S & S & S & S & S  \\ \hline
+16                           & S & S & S & S & S & H & H & H & H & H  \\ \hline
+15                           & S & S & S & S & S & H & H & H & H & H  \\ \hline
+13-14                        & S & S & S & S & S & H & H & H & H & H  \\ \hline
+12                           & H & H & S & S & S & H & H & H & H & H  \\ \hline
+11                           & D & D & D & D & D & D & D & D & D & H  \\ \hline
+10                           & D & D & D & D & D & D & D & D & H & H  \\ \hline
+9                            & H & D & D & D & D & H & H & H & H & H  \\ \hline
+5-8                          & H & H & H & H & H & H & H & H & H & H  \\ \hline
+
+\multicolumn{11}{|c|}{\textbf{Soft totals}}                           \\ \hline
+                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
+A,8-A,9                      & S & S & S & S & S & S & S & S & S & S  \\ \hline
+A,7                          & S & S & S & S & S & S & S & H & H & H  \\ \hline
+A,6                          & H & H & H & H & H & H & H & H & H & H  \\ \hline
+A,4-A,5                      & H & H & H & H & H & H & H & H & H & H  \\ \hline
+A,2-A,3                      & H & H & H & H & H & H & H & H & H & H  \\ \hline
+
+\multicolumn{11}{|c|}{\textbf{Pairs}}                                 \\ \hline
+                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
+A,A                          & P & P & P & P & P & P & P & P & P & P  \\ \hline
+10,10                        & S & S & S & S & S & S & S & S & S & S  \\ \hline
+9,9                          & P & P & P & P & P & S & P & P & S & S  \\ \hline
+8,8                          & P & P & P & P & P & P & P & P & P & P  \\ \hline
+7,7                          & P & P & P & P & P & P & H & H & H & H  \\ \hline
+6,6                          & P & P & P & P & P & H & H & H & H & H  \\ \hline
+5,5                          & D & D & D & D & D & D & D & D & H & H  \\ \hline
+4,4                          & H & H & H & P & P & H & H & H & H & H  \\ \hline
+2,2-3,3                      & P & P & P & P & P & P & H & H & H & H  \\ \hline
+\end{tabular}
+\end{table}
+
+
+\paragraph{De beste strategie}
+
+Uit onze resultaten na het simuleren van al onze strategie\"en zijn bovenstaande 4 er het beste uitgekomen. En dus opteren we ervoor om deze 4 te vergelijken met elkaar. \\*
+Strategie 1 heeft een average profit van -0,29 en een house edge van 0,29. Daarbij hebben we een kans van bijna 32\% dat onze winst groter is dan 5\$ en een kans van 34\% dat we een verlies leiden van groter dan 5\$. \\*
+Strategie 2 ... \\*
+Strategie 3 ... \\*
+Strategie 4 ... \\*
 
 
 
 
 
-\subsection{Simple strategy}
-
-Deze strategie wordt vooraal gebruikt voor spelers die nog niet zoveel ervaring hebben met blackjack. De spelers zijn alleen maar gefocust op hun eigen kaarten en houden geen rekening met de kaarten van de dealer. Om als voorbeeld te geven, jij hebt 16 gedeeld gekregen en in dit geval stand je zonder rekening te houden met de dealer zijn kaart. Maar als de dealer een aas liggen heeft dan is het beter dat je hit omdat de kans groter is dat de dealer meer dan 16 gaan behalen.
-
-\subsection{Counting cards}
 
 
-\section*{Varia}
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Welke van onze eigen strategie is het beste ? (Deel 2)}
+In deze paragraaf onderzoeken we welke van bovenstaande strategieën het beste is met surrender.
+
+
+\section{Varia}
 
 
 

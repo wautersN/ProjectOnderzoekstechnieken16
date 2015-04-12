@@ -1,0 +1,58 @@
+\section{Strategie\"en}
+In het spel blackjack zijn er verschillende strategie\"en uitgevonden om zo veel mogelijk te kunnen winnnen. In onze paper gaan we ze niet allemaal bespreken, maar enkel de strategie\"en die het meest gebruikt worden.
+
+
+\subsection{Basic strategy}
+
+Dit is een strategie die we gekopie\"erd hebben van ervaren gokkers. In onze simulatie maken we gebruik van 4 of meerdere decks. Als je blackjack hebt dan krijg je 3:2 uitbetaling. De dealer stands als hij een soft 17 heeft en het is toegestaan om een double te doen achter dat je gesplit hebt. 
+
+\begin{table}[ht]
+\tiny
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+
+{Player hand} & \multicolumn{10}{c|}{Dealer's face-up card}     \\ \cline{2-11} 
+                             & 2  & 3  & 4  & 5  & 6  & 7  & 8  & 9  & 10 & A  \\ \hline
+\multicolumn{11}{|c|}{Hard totals}                                             \\ \hline
+17-20       								 & S  & S  & S  & S  & S  & S  & S  & S  & S  & S  \\ \hline
+16                           & S  & S  & S  & S  & S  & H  & H  & H  & H  & H  \\ \hline
+15                           & S  & S  & S  & S  & S  & H  & H  & H  & H  & H  \\ \hline
+13-14                        & S  & S  & S  & S  & S  & H  & H  & H  & H  & H  \\ \hline
+12                           & H  & H  & S  & S  & S  & H  & H  & H  & H  & H  \\ \hline
+11                           & DH & DH & DH & DH & DH & DH & DH & DH & DH & H  \\ \hline
+10                           & DH & DH & DH & DH & DH & DH & DH & DH & H  & H  \\ \hline
+9                            & H  & DH & DH & DH & DH & H  & H  & H  & H  & H  \\ \hline
+5-8                          & H  & H  & H  & H  & H  & H  & H  & H  & H  & H  \\ \hline
+\multicolumn{11}{|c|}{Soft totals}                                             \\ \hline
+                             & 2  & 3  & 4  & 5  & 6  & 7  & 8  & 9  & 10 & A  \\ \hline
+A,8-A,9                      & S  & S  & S  & S  & S  & S  & S  & S  & S  & S  \\ \hline
+A,7                          & S  & DS & DS & DS & DS & S  & S  & H  & H  & H  \\ \hline
+A,6                          & H  & DH & DH & DH & DH & H  & H  & H  & H  & H  \\ \hline
+A,4-A,5                      & H  & H  & DH & DH & DH & H  & H  & H  & H  & H  \\ \hline
+A,2-A,3                      & H  & H  & H  & DH & DH & H  & H  & H  & H  & H  \\ \hline
+\multicolumn{11}{|c|}{Pairs}                                                   \\ \hline
+                             & 2  & 3  & 4  & 5  & 6  & 7  & 8  & 9  & 10 & A  \\ \hline
+A,A                          & SP & SP & SP & SP & SP & SP & SP & SP & SP & SP \\ \hline
+10,10                        & S  & S  & S  & S  & S  & S  & S  & S  & S  & S  \\ \hline
+9,9                          & SP & SP & SP & SP & SP & S  & SP & SP & S  & S  \\ \hline
+8,8                          & SP & SP & SP & SP & SP & SP & SP & SP & SP & SP \\ \hline
+7,7                          & SP & SP & SP & SP & SP & SP & H  & H  & H  & H  \\ \hline
+6,6                          & SP & SP & SP & SP & SP & H  & H  & H  & H  & H  \\ \hline
+5,5                          & DH & DH & DH & DH & DH & DH & DH & DH & H  & H  \\ \hline
+4,4                          & H  & H  & H  & SP & SP & H  & H  & H  & H  & H  \\ \hline
+2,2-3,3                      & SP & SP & SP & SP & SP & SP & H  & H  & H  & H  \\ \hline
+\end{tabular}
+
+\end{table}
+
+Zoals hierboven afgebeeld heeft de speler de mogelijkheid om te Hitten (H), Stand (S), Double then hit (DH), Double then stand (DS) of om te splitten (SP). Om een voorbeeld te geven uit bovenstaande tabel, als de speler een hard total heeft van 15, dan moet hij standen als de dealer kaart lager is dan 7, anders moet hij hitten.
+
+
+
+
+
+\subsection{Simple strategy}
+
+Deze strategie wordt vooraal gebruikt voor spelers die nog niet zoveel ervaring hebben met blackjack. De spelers zijn alleen maar gefocust op hun eigen kaarten en houden geen rekening met de kaarten van de dealer. Om als voorbeeld te geven, jij hebt 16 gedeeld gekregen en in dit geval stand je zonder rekening te houden met de dealer zijn kaart. Maar als de dealer een aas liggen heeft dan is het beter dat je hit omdat de kans groter is dat de dealer meer dan 16 gaan behalen.
+
+\subsection{Counting cards}
