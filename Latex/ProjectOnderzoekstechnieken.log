@@ -1,18 +1,19 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.17)  13 APR 2015 14:54
-=======
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.10)  13 APR 2015 13:29
->>>>>>> origin/master
-=======
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.10)  13 APR 2015 13:14
->>>>>>> parent of 92732ee... StrategieÃ«n met surrender
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.10)  13 APR 2015 15:25
 entering extended mode
 **ProjectOnderzoekstechnieken.tex
-(ProjectOnderzoekstechnieken.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 68 languages loaded.
-(IEEEtran.cls
+(C:\Users\Jari\Documents\Latex\ProjectOnderzoekstechnieken.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(C:\Users\Jari\Documents\Latex\IEEEtran.cls
 Document Class: IEEEtran 2012/11/21 V1.8c by Harald Hanche-Olsen and Anders Chr
 istensen
 -- Based on V1.7a by Michael Shell
@@ -25,7 +26,7 @@ istensen
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 373.
 
-("C:\Program Files (x86)\Miktex\tex\latex\psnfss\ot1ptm.fd"
+("C:\Program Files (x86)\MikTeX\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -98,31 +99,31 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen116
 \c@IEEEbiography=\count90
 \@IEEEtranrubishbin=\box26
-) ("C:\Program Files (x86)\Miktex\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+) ("C:\Program Files (x86)\MikTeX\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\Miktex\tex\latex\graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+("C:\Program Files (x86)\MikTeX\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("C:\Program Files (x86)\Miktex\tex\latex\graphics\graphics.sty"
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files (x86)\MikTeX\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\Miktex\tex\latex\graphics\trig.sty"
+("C:\Program Files (x86)\MikTeX\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\Miktex\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files (x86)\MikTeX\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\Miktex\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files (x86)\MikTeX\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\Miktex\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files (x86)\MikTeX\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\Miktex\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files (x86)\MikTeX\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count91
@@ -130,84 +131,88 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
 )
-(ProjectOnderzoekstechnieken.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
+("C:\Program Files (x86)\MikTeX\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count92
+\float@exts=\toks16
+\float@box=\box27
+\@float@everytoks=\toks17
+\@floatcapt=\box28
+)
+(C:\Users\Jari\Documents\Latex\ProjectOnderzoekstechnieken.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
 []\OT1/ptm/m/n/10 In het kader van het oplei-d-ing-son-derdeel
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 13--15
+Underfull \hbox (badness 1472) in paragraph at lines 14--16
 \OT1/ptm/m/n/10 een-voudige spel-regels. Een speler probeert een score te
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 25.
+(Font)              <7> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 25.
+(Font)              <5> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 26.
+(Font)              <8> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 26.
+(Font)              <6> on input line 27.
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-[1{C:/Users/Asus Wauters Niels/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.ma
-p}
+[1{C:/Users/Jari/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-<<<<<<< HEAD
-<<<<<<< HEAD
-Underfull \hbox (badness 10000) in paragraph at lines 286--291
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
 
-<OUTPUT1.jpeg, id=8, 628.3475pt x 502.87875pt>
-File: OUTPUT1.jpeg Graphic file (type jpg)
- <use OUTPUT1.jpeg>
-Package pdftex.def Info: OUTPUT1.jpeg used on input line 295.
-(pdftex.def)             Requested size: 177.13412pt x 141.76425pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+
+ []
+
+[2]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no « in font ptmr7t!
- [2]
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
-=======
-Underfull \hbox (badness 10000) in paragraph at lines 285--290
->>>>>>> parent of 92732ee... StrategieÃ«n met surrender
 
- []
-
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no « in font ptmr7t!
-<<<<<<< HEAD
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
@@ -221,12 +226,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 458--459
 
  []
 
-[3]
+
 Underfull \hbox (badness 10000) in paragraph at lines 460--461
 
  []
 
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 462--463
 
  []
@@ -236,10 +241,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 464--465
 
  []
 
->>>>>>> origin/master
-=======
-[2]
->>>>>>> parent of 92732ee... StrategieÃ«n met surrender
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
+
+ []
+
+
+<C:/Users/Jari/Documents/Latex/GrafiekProfit.jpeg, id=14, 628.3475pt x 502.8787
+5pt>
+File: C:/Users/Jari/Documents/Latex/GrafiekProfit.jpeg Graphic file (type jpg)
+ <use C:/Users/Jari/Documents/Latex/GrafiekProfit.jpeg>
+Package pdftex.def Info: C:/Users/Jari/Documents/Latex/GrafiekProfit.jpeg used 
+on input line 474.
+(pdftex.def)             Requested size: 262.04987pt x 209.71901pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 474--475
+ [][] 
+ []
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -251,45 +270,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3
+[4
 
- <./OUTPUT1.jpeg>] (ProjectOnderzoekstechnieken.aux) ) 
+ <C:/Users/Jari/Documents/Latex/GrafiekProfit.jpeg>]
+(C:\Users\Jari\Documents\Latex\ProjectOnderzoekstechnieken.aux) ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 1531 strings out of 493698
- 24393 string characters out of 3143565
- 163326 words of memory out of 3000000
- 4886 multiletter control sequences out of 15000+200000
- 41402 words of font info for 75 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 27i,8n,19p,516b,222s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/M
-iktex/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/Miktex/fonts/type
-1/urw/times/utmb8a.pfb><C:/Program Files (x86)/Miktex/fonts/type1/urw/times/utm
-r8a.pfb><C:/Program Files (x86)/Miktex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ProjectOnderzoekstechnieken.pdf (3 pages, 91272 bytes).
-PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
-=======
- 921 strings out of 493921
- 16637 string characters out of 3148886
- 147942 words of memory out of 3000000
- 4277 multiletter control sequences out of 15000+200000
+ 1588 strings out of 493921
+ 25565 string characters out of 3146483
+ 163069 words of memory out of 3000000
+ 4909 multiletter control sequences out of 15000+200000
  41402 words of font info for 75 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 26i,8n,19p,516b,222s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MikTex/fonts/enc/dvips/fontname/8r.en
-c}<C:/Program Files/MikTex/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/M
-ikTex/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MikTex/fonts/type1/urw
-/times/utmri8a.pfb>
-Output written on ProjectOnderzoekstechnieken.pdf (3 pages, 69321 bytes).
+ 27i,8n,19p,516b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Fi
+les (x86)/MikTeX/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MikTeX
+/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MikTeX/fonts/type1/ur
+w/times/utmr8a.pfb><C:/Program Files (x86)/MikTeX/fonts/type1/urw/times/utmri8a
+.pfb>
+Output written on ProjectOnderzoekstechnieken.pdf (4 pages, 104246 bytes).
 PDF statistics:
-<<<<<<< HEAD
- 28 PDF objects out of 1000 (max. 8388607)
->>>>>>> origin/master
-=======
- 25 PDF objects out of 1000 (max. 8388607)
->>>>>>> parent of 92732ee... StrategieÃ«n met surrender
+ 29 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
