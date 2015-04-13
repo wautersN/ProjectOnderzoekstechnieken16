@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.10)  13 APR 2015 12:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.10)  13 APR 2015 13:14
 entering extended mode
 **ProjectOnderzoekstechnieken.tex
 
-(C:\Users\Jari\Documents\GitHub\ProjectOnderzoekstechnieken16\Latex\ProjectOnde
-rzoekstechnieken.tex
+(C:\Users\Jelle\Documents\GitHub\ProjectOnderzoekstechnieken16\Latex\ProjectOnd
+erzoekstechnieken.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -16,8 +16,8 @@ ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 
-(C:\Users\Jari\Documents\GitHub\ProjectOnderzoekstechnieken16\Latex\IEEEtran.cl
-s
+(C:\Users\Jelle\Documents\GitHub\ProjectOnderzoekstechnieken16\Latex\IEEEtran.c
+ls
 Document Class: IEEEtran 2012/11/21 V1.8c by Harald Hanche-Olsen and Anders Chr
 istensen
 -- Based on V1.7a by Michael Shell
@@ -30,7 +30,7 @@ istensen
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 373.
 
-("C:\Program Files (x86)\MikTeX\tex\latex\psnfss\ot1ptm.fd"
+("C:\Program Files\MikTex\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -104,8 +104,8 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \c@IEEEbiography=\count90
 \@IEEEtranrubishbin=\box26
 )
-(C:\Users\Jari\Documents\GitHub\ProjectOnderzoekstechnieken16\Latex\ProjectOnde
-rzoekstechnieken.aux)
+(C:\Users\Jelle\Documents\GitHub\ProjectOnderzoekstechnieken16\Latex\ProjectOnd
+erzoekstechnieken.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
@@ -146,7 +146,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
-[1{C:/Users/Jari/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+[1{C:/Users/Jelle/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
@@ -171,20 +171,20 @@ Before submitting the final camera ready copy, remember to:
 [3
 
 ]
-(C:\Users\Jari\Documents\GitHub\ProjectOnderzoekstechnieken16\Latex\ProjectOnde
-rzoekstechnieken.aux) ) 
+(C:\Users\Jelle\Documents\GitHub\ProjectOnderzoekstechnieken16\Latex\ProjectOnd
+erzoekstechnieken.aux) ) 
 Here is how much of TeX's memory you used:
  921 strings out of 493921
- 16646 string characters out of 3146483
+ 16637 string characters out of 3148886
  147942 words of memory out of 3000000
  4277 multiletter control sequences out of 15000+200000
  41402 words of font info for 75 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  26i,8n,19p,516b,222s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MikTeX/fonts/enc/dvips/fontname/
-8r.enc}<C:/Program Files (x86)/MikTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Prog
-ram Files (x86)/MikTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)
-/MikTeX/fonts/type1/urw/times/utmri8a.pfb>
+{C:/Program Files/MikTex/fonts/enc/dvips/fontname/8r.en
+c}<C:/Program Files/MikTex/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/M
+ikTex/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MikTex/fonts/type1/urw
+/times/utmri8a.pfb>
 Output written on ProjectOnderzoekstechnieken.pdf (3 pages, 69321 bytes).
 PDF statistics:
  25 PDF objects out of 1000 (max. 8388607)
