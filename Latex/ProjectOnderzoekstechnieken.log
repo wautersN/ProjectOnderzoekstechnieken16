@@ -1,15 +1,20 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.17)  13 APR 2015 11:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.10)  13 APR 2015 13:01
 entering extended mode
 **ProjectOnderzoekstechnieken.tex
-(C:\Users\Daan\Desktop\BlackJack\ProjectOnderzoekstechnieken16\Latex\ProjectOnderzoekstechnieken.tex
+
+(C:\Users\Jelle\Documents\GitHub\ProjectOnderzoekstechnieken16\Latex\ProjectOnd
+erzoekstechnieken.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, arabic, armenian, assamese, basque, bengali
-, bokmal, bulgarian, catalan, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
-ian, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, icelandic, indonesian, interlingua, irish, italian,
- kannada, kurmanji, latin, latvian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, ngerman
--x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, sloven
-ian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
-elsh, loaded.
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
 
 ! LaTeX Error: \usepackage before \documentclass.
 
@@ -22,7 +27,7 @@ l.1 \usepackage{
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\ieeetran\IEEEtran.cls"
+("C:\Program Files\MikTex\tex\latex\ieeetran\IEEEtran.cls"
 Document Class: IEEEtran 2014/09/17 V1.8a by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -34,7 +39,8 @@ Document Class: IEEEtran 2014/09/17 V1.8a by Michael Shell
 \@IEEEtrantmpcountC=\count81
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 458.
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+
+("C:\Program Files\MikTex\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -48,42 +54,52 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <11> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <17> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <20> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1039.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 1039.
+
 \IEEEquantizedlength=\dimen109
 \IEEEquantizedlengthdiff=\dimen110
 \IEEEquantizedtextheightdiff=\dimen111
@@ -117,7 +133,9 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen124
 \c@IEEEbiography=\count93
 \@IEEEtranrubishbin=\box27
-) (C:\Users\Daan\Desktop\BlackJack\ProjectOnderzoekstechnieken16\Latex\ProjectOnderzoekstechnieken.aux)
+)
+(C:\Users\Jelle\Documents\GitHub\ProjectOnderzoekstechnieken16\Latex\ProjectOnd
+erzoekstechnieken.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -155,15 +173,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+[1{C:/Users/Jelle/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 2538) in paragraph at lines 241--242
- \OT1/ptm/m/it/10 e) De beste strate-gie: [][] \OT1/ptm/m/n/10 Uit onze re-sul-taten na het
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
@@ -188,97 +201,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
  []
 
+[2]
 Missing character: There is no Ã in font ptmr7t!
 Missing character: There is no « in font ptmr7t!
-! Undefined control sequence.
-<write> \string \bibdata {C:\Users 
-                                   \Daan \Desktop \BlackJack \ProjectOnderzo...
-l.280 ...ctOnderzoekstechnieken16\Latex\blackjack}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-<write> \string \bibdata {C:\Users \Daan 
-                                         \Desktop \BlackJack \ProjectOnderzo...
-l.280 ...ctOnderzoekstechnieken16\Latex\blackjack}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
-! Undefined control sequence.
-<write> \string \bibdata {C:\Users \Daan \Desktop 
-                                                  \BlackJack \ProjectOnderzo...
-l.280 ...ctOnderzoekstechnieken16\Latex\blackjack}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+ []
 
-! Undefined control sequence.
-<write> ...ta {C:\Users \Daan \Desktop \BlackJack 
-                                                  \ProjectOnderzoekstechniek...
-l.280 ...ctOnderzoekstechnieken16\Latex\blackjack}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-<write> ...BlackJack \ProjectOnderzoekstechnieken 
-                                                  16\Latex \blackjack }
-l.280 ...ctOnderzoekstechnieken16\Latex\blackjack}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
 
-! Undefined control sequence.
-<write> ... \ProjectOnderzoekstechnieken 16\Latex 
-                                                  \blackjack }
-l.280 ...ctOnderzoekstechnieken16\Latex\blackjack}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+ []
 
-! Undefined control sequence.
-<write> ...derzoekstechnieken 16\Latex \blackjack 
-                                                  }
-l.280 ...ctOnderzoekstechnieken16\Latex\blackjack}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-(C:\Users\Daan\Desktop\BlackJack\ProjectOnderzoekstechnieken16\Latex\ProjectOnderzoekstechnieken.bbl)
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.283 \end{thebibliography}
-                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
+
+ []
 
 
 ** Conference Paper **
@@ -291,21 +245,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2] (C:\Users\Daan\Desktop\BlackJack\ProjectOnderzoekstechnieken16\Latex\ProjectOnderzoekstechnieken.aux) ) 
+[4
+
+]
+(C:\Users\Jelle\Documents\GitHub\ProjectOnderzoekstechnieken16\Latex\ProjectOnd
+erzoekstechnieken.aux) ) 
 Here is how much of TeX's memory you used:
- 1044 strings out of 493921
- 19706 string characters out of 3147285
- 132514 words of memory out of 3000000
- 4397 multiletter control sequences out of 15000+200000
+ 1034 strings out of 493921
+ 19414 string characters out of 3148886
+ 154514 words of memory out of 3000000
+ 4390 multiletter control sequences out of 15000+200000
  39718 words of font info for 73 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 26i,8n,19p,474b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program F
-iles/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ProjectOnderzoekstechnieken.pdf (2 pages, 64275 bytes).
+ 26i,8n,19p,487b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MikTex/fonts/enc/dvips/fontname/8r.en
+c}<C:/Program Files/MikTex/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/M
+ikTex/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MikTex/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on ProjectOnderzoekstechnieken.pdf (4 pages, 80270 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
+ 28 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
