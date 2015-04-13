@@ -236,7 +236,7 @@ A,A                          & P & P & P & P & P & P & P & P & P & P  \\ \hline
 \end{table}
 
 
-\paragraph{De 'beste' strategie}
+\paragraph{De beste strategie}
 
 Uit onze resultaten na het simuleren van al onze strategie\"en zijn bovenstaande 4 er het beste uitgekomen. En dus opteren we ervoor om deze 4 te vergelijken met elkaar. \\*
 
@@ -248,233 +248,38 @@ Strategie 3 heeft een average profit van -0,87 en een house edge van 0,87. Daarb
 
 Strategie 4 heeft een average profit van -0,78 en een house edge van 0,78. Daarbij hebben we een kans van bijna 30,5\% dat onze winst groter is dan 5\$ en een kans van 35,57\% dat we een verlies leiden van groter dan 5\$. \\*
 
-Zo zien we dat dus onze eerste strategie ons het dichtst brengt bij een positieve winst. We weten dat we nooit een positieve winst zouden kunnen halen aangezien iedereen dan die strategie zou toepassen en casino's dan veel verlies zouden lijden.
-We hebben nu wel 1 optie die nog steeds niet gebruikt is, de optie surrender. Aangezien je in de realiteit ook de mogelijkheid hebt om te surrenderen, hebben we nu van deze 4 vorige strategie\"en 4 nieuwe strategie\"en gemaakt met de optie om te surrenderen. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 \subsection{Welke van onze eigen strategie is het beste ? (Deel 2)}
-In deze paragraaf onderzoeken we welke van bovenstaande strategieën het beste is met surrender.\\*
+In deze paragraaf onderzoeken we welke van bovenstaande strategieën het beste is met surrender.
 
-\paragraph{Strategie 1 met surrender}
-% Dit is onze strategie 5 in het document "Soorten strategie\"en"
-
-Deze strategie bestaat uit de combinatie van dealer stands op een soft 17, we verdubbelen de inzet bij alle paren en verdubbeling van de inzet na een split is toegestaan. \footnote{ Bij bovenstaande tabel betekenen volgende letters dit: RH staat voor Surrender en Hit als surrender niet is toegestaan, RS staat voor Surrender en Stand als surrender niet is toegestaan en RP staat voor Surrender en Split als surrender niet is toegestaan}
-Dan bekomen we deze \textit{basic strategy} :
-
-\begin{table}[ht]
-\tiny
-\centering
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
-\hline
-
-{Player hand} & \multicolumn{10}{c|}{Dealer's face-up card}     \\ \cline{2-11} 
-                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
-\multicolumn{11}{|c|}{\textbf{Hard totals}}                           \\ \hline
-17-20       								 & S & S & S & S & S & S & S & S & S & S  \\ \hline
-16                           & S & S & S & S & S & H & H & RH & RS & RH  \\ \hline
-15                           & S & S & S & S & S & H & H & H & RH & H  \\ \hline
-13-14                        & S & S & S & S & S & H & H & H & H & H  \\ \hline
-12                           & H & H & S & S & S & H & H & H & H & H  \\ \hline
-11                           & D & D & D & D & D & D & D & D & D & H  \\ \hline
-10                           & D & D & D & D & D & D & D & D & H & H  \\ \hline
-9                            & H & D & D & D & D & H & H & H & H & H  \\ \hline
-5-8                          & H & H & H & H & H & H & H & H & H & H  \\ \hline
-
-\multicolumn{11}{|c|}{\textbf{Soft totals}}                           \\ \hline
-                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
-A,8-A,9                      & S & S & S & S & S & S & S & S & S & S  \\ \hline
-A,7                          & S & DS & DS & DS & DS & S & S & H & H & H  \\ \hline
-A,6                          & H & D & D & D & D & H & H & H & H & H  \\ \hline
-A,4-A,5                      & H & H & D & D & D & H & H & H & H & H  \\ \hline
-A,2-A,3                      & H & H & H & D & D & H & H & H & H & H  \\ \hline
-
-\multicolumn{11}{|c|}{\textbf{Pairs}}                                 \\ \hline
-                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
-A,A                          & P & P & P & P & P & P & P & P & P & P  \\ \hline
-10,10                        & S & S & S & S & S & S & S & S & S & S  \\ \hline
-9,9                          & P & P & P & P & P & S & P & P & S & S  \\ \hline
-8,8                          & P & P & P & P & P & P & P & P & P & P  \\ \hline
-7,7                          & P & P & P & P & P & P & H & H & H & H  \\ \hline
-6,6                          & H & P & P & P & P & H & H & H & H & H  \\ \hline
-5,5                          & D & D & D & D & D & D & D & D & H & H  \\ \hline
-4,4                          & H & H & H & H & H & H & H & H & H & H  \\ \hline
-2,2-3,3                      & H & H & P & P & P & P & H & H & H & H  \\ \hline
-\end{tabular}
-\end{table}
-
-
-\paragraph{Strategie 2 met surrender}
-% Dit is onze strategie 6 in het document "Soorten strategie\"en"
-
-Deze strategie bestaat uit de combinatie van dealer stands op een soft 17, we verdubbelen de inzet alleen bij de paren 9, 10 en 11 en verdubbeling van de inzet na een split is toegestaan.\\*
-Dan bekomen we deze \textit{basic strategy} :
-
-\begin{table}[ht]
-\tiny
-\centering
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
-\hline
-
-{Player hand} & \multicolumn{10}{c|}{Dealer's face-up card}     \\ \cline{2-11} 
-                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
-\multicolumn{11}{|c|}{\textbf{Hard totals}}                           \\ \hline
-17-20       								 & S & S & S & S & S & S & S & S & S & S  \\ \hline
-16                           & S & S & S & S & S & H & H & RH & RS & RH  \\ \hline
-15                           & S & S & S & S & S & H & H & H & RH & H  \\ \hline
-13-14                        & S & S & S & S & S & H & H & H & H & H  \\ \hline
-12                           & H & H & S & S & S & H & H & H & H & H  \\ \hline
-11                           & D & D & D & D & D & D & D & D & D & H  \\ \hline
-10                           & D & D & D & D & D & D & D & D & H & H  \\ \hline
-9                            & H & D & D & D & D & H & H & H & H & H  \\ \hline
-5-8                          & H & H & H & H & H & H & H & H & H & H  \\ \hline
-
-\multicolumn{11}{|c|}{\textbf{Soft totals}}                           \\ \hline
-                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
-A,8-A,9                      & S & S & S & S & S & S & S & S & S & S  \\ \hline
-A,7                          & S & S & S & S & S & S & S & H & H & H  \\ \hline
-A,6                          & H & H & H & H & H & H & H & H & H & H  \\ \hline
-A,4-A,5                      & H & H & H & H & H & H & H & H & H & H  \\ \hline
-A,2-A,3                      & H & H & H & H & H & H & H & H & H & H  \\ \hline
-
-\multicolumn{11}{|c|}{\textbf{Pairs}}                                 \\ \hline
-                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
-A,A                          & P & P & P & P & P & P & P & P & P & P  \\ \hline
-10,10                        & S & S & S & S & S & S & S & S & S & S  \\ \hline
-9,9                          & P & P & P & P & P & S & P & P & S & S  \\ \hline
-8,8                          & P & P & P & P & P & P & P & P & P & P  \\ \hline
-7,7                          & P & P & P & P & P & P & H & H & H & H  \\ \hline
-6,6                          & P & P & P & P & P & H & H & H & H & H  \\ \hline
-5,5                          & D & D & D & D & D & D & D & D & H & H  \\ \hline
-4,4                          & H & H & H & P & P & H & H & H & H & H  \\ \hline
-2,2-3,3                      & P & P & P & P & P & P & H & H & H & H  \\ \hline
-\end{tabular}
-\end{table}
-
-\newpage
-
-\paragraph{Strategie 3 met surrender}
-% Dit is onze strategie 11 in het document "Soorten strategie\"en"
-
-Deze strategie bestaat uit de combinatie van dealer hits op een soft 17, we verdubbelen de inzet bij alle paren en verdubbeling van inzet na een split is toegestaan.\\*
-Dan bekomen we deze \textit{basic strategy} :
-
-\begin{table}[ht]
-\tiny
-\centering
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
-\hline
-
-{Player hand} & \multicolumn{10}{c|}{Dealer's face-up card}     \\ \cline{2-11} 
-                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
-\multicolumn{11}{|c|}{\textbf{Hard totals}}                           \\ \hline
-18-20       								 & S & S & S & S & S & S & S & S & S & S  \\ \hline
-17                           & S & S & S & S & S & S & S & S & S & RS  \\ \hline
-16                           & S & S & S & S & S & H & H & RH & RS & RH  \\ \hline
-15                           & S & S & S & S & S & H & H & H & RH & RH  \\ \hline
-13-14                        & S & S & S & S & S & H & H & H & H & H  \\ \hline
-12                           & H & H & S & S & S & H & H & H & H & H  \\ \hline
-11                           & D & D & D & D & D & D & D & D & D & H  \\ \hline
-10                           & D & D & D & D & D & D & D & D & H & H  \\ \hline
-9                            & H & D & D & D & D & H & H & H & H & H  \\ \hline
-5-8                          & H & H & H & H & H & H & H & H & H & H  \\ \hline
-
-\multicolumn{11}{|c|}{\textbf{Soft totals}}                           \\ \hline
-                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
-A,8-A,9                      & S & S & S & S & DS & S & S & S & S & S  \\ \hline
-A,7                          & DS & DS & DS & DS & DS & S & S & H & H & H  \\ \hline
-A,6                          & H & D & D & D & D & H & H & H & H & H  \\ \hline
-A,4-A,5                      & H & H & D & D & D & H & H & H & H & H  \\ \hline
-A,2-A,3                      & H & H & H & D & D & H & H & H & H & H  \\ \hline
-
-\multicolumn{11}{|c|}{\textbf{Pairs}}                                 \\ \hline
-                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
-A,A                          & P & P & P & P & P & P & P & P & P & P  \\ \hline
-10,10                        & S & S & S & S & S & S & S & S & S & S  \\ \hline
-9,9                          & P & P & P & P & P & S & P & P & S & S  \\ \hline
-8,8                          & P & P & P & P & P & P & P & P & P & RP  \\ \hline
-7,7                          & P & P & P & P & P & P & H & H & H & H  \\ \hline
-6,6                          & P & P & P & P & P & H & H & H & H & H  \\ \hline
-5,5                          & D & D & D & D & D & D & D & D & H & H  \\ \hline
-4,4                          & H & H & H & P & P & H & H & H & H & H  \\ \hline
-2,2-3,3                      & P & P & P & P & P & P & H & H & H & H  \\ \hline
-\end{tabular}
-\end{table}
-
-
-\paragraph{Strategie 4 met surrender}
-% Dit is onze strategie 12 in het document "Soorten strategie\"en"
-
-Deze strategie bestaat uit de combinatie van dealer hits op een soft 17, we verdubbelen de inzet alleen bij de paren 9, 10 en 11 en verdubbeling na een split is toegestaan.\\*
-Dan bekomen we deze \textit{basic strategy} :
-
-\begin{table}[ht]
-\tiny
-\centering
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
-\hline
-
-{Player hand} & \multicolumn{10}{c|}{Dealer's face-up card}     \\ \cline{2-11} 
-                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
-\multicolumn{11}{|c|}{\textbf{Hard totals}}                           \\ \hline
-18-20       								 & S & S & S & S & S & S & S & S & S & S  \\ \hline
-17                           & S & S & S & S & S & S & S & S & S & RS  \\ \hline
-16                           & S & S & S & S & S & H & H & RH & RS & RH  \\ \hline
-15                           & S & S & S & S & S & H & H & H & RH & RH  \\ \hline
-13-14                        & S & S & S & S & S & H & H & H & H & H  \\ \hline
-12                           & H & H & S & S & S & H & H & H & H & H  \\ \hline
-11                           & D & D & D & D & D & D & D & D & D & H  \\ \hline
-10                           & D & D & D & D & D & D & D & D & H & H  \\ \hline
-9                            & H & D & D & D & D & H & H & H & H & H  \\ \hline
-5-8                          & H & H & H & H & H & H & H & H & H & H  \\ \hline
-
-\multicolumn{11}{|c|}{\textbf{Soft totals}}                           \\ \hline
-                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
-A,8-A,9                      & S & S & S & S & S & S & S & S & S & S  \\ \hline
-A,7                          & S & S & S & S & S & S & S & H & H & H  \\ \hline
-A,6                          & H & H & H & H & H & H & H & H & H & H  \\ \hline
-A,4-A,5                      & H & H & H & H & H & H & H & H & H & H  \\ \hline
-A,2-A,3                      & H & H & H & H & H & H & H & H & H & H  \\ \hline
-
-\multicolumn{11}{|c|}{\textbf{Pairs}}                                 \\ \hline
-                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
-A,A                          & P & P & P & P & P & P & P & P & P & P  \\ \hline
-10,10                        & S & S & S & S & S & S & S & S & S & S  \\ \hline
-9,9                          & P & P & P & P & P & S & P & P & S & S  \\ \hline
-8,8                          & P & P & P & P & P & P & P & P & P & RP  \\ \hline
-7,7                          & P & P & P & P & P & P & H & H & H & H  \\ \hline
-6,6                          & P & P & P & P & P & H & H & H & H & H  \\ \hline
-5,5                          & D & D & D & D & D & D & D & D & H & H  \\ \hline
-4,4                          & H & H & H & P & P & H & H & H & H & H  \\ \hline
-2,2-3,3                      & P & P & P & P & P & P & H & H & H & H  \\ \hline
-\end{tabular}
-\end{table}
-
-
-\paragraph{De 'beste' strategie}
-
-Ook hier hebben we dus alle opties ingegeven in onze simulator en krijgen we dezelfde 4 variabelen waar we de strategie\"en mee vergelijken. \\*
-
-Strategie 1 met surrender heeft een average profit van -0,67 en een house edge van 0,67. Daarbij hebben we een kans van bijna 31\% dat onze winst groter is dan 5\$ en een kans van bijna 35\% dat we een verlies leiden van groter dan 5\$. \\*
-
-Strategie 2 met surrender heeft een average profit van -0,59 en een house edge van 0,59. Daarbij hebben we een kans van 30,5\% dat onze winst groter is dan 5\$ en een kans van bijna 34,5\% dat we een verlies leiden van groter dan 5\$. \\*
-
-Strategie 3 met surrender heeft een average profit van -0,29 en een house edge van 0,29. Daarbij hebben we een kans van iets meer dan 32\% dat onze winst groter is dan 5\$ en een kans van 34\% dat we een verlies leiden van groter dan 5\$. \\*
-
-Strategie 4 met surrender heeft een average profit van -1,15 en een house edge van 1,15. Daarbij hebben we een kans van iets meer dan 29\% dat onze winst groter is dan 5\$ en een kans van bijna 37\% dat we een verlies leiden van groter dan 5\$. \\*
-
-Hieruit kunnen we dus concluderen dat strategie 3 met surrender de beste strategie is die we kunnen hebben. Zo zien we maar dat het veranderen van 1 variabele grote veranderingen kan teweeg brengen. Zo is strategie 1 niet meer de beste strategie met surrender terwijl die die wel was zonder. En terwijl strategie 3 ons het minste kans op winst gaf zonder surrender, hebben we die kans nu verkleind tot de best mogelijke strategie.\\*
-Dit zijn lang niet alle mogelijke strategie\"en maar we hebben besloten om niet elke optie op te nemen in ons onderzoek. Zo konden we ook de optie nemen om de dealer te laten 'peaken' naar zijn eerste kaart.
 
 \section{Varia}
 
 
 
 
-%\begin{thebibliography}{1}
+\begin{thebibliography}{1}
 
-%\bibliography{C:\Users\Daan\Desktop\BlackJack\ProjectOnderzoekstechnieken16\Latex\blackjack}
+\bibliography{C:\Users\Daan\Desktop\BlackJack\ProjectOnderzoekstechnieken16\Latex\blackjack}
 
 
-%\end{thebibliography}
+\end{thebibliography}
 
 \end{document}
