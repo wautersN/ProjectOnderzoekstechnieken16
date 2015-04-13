@@ -1,10 +1,5 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: ProjectOnderzoekstechnieken.aux
-I couldn't open database file C:16.bib
----line 8 of file ProjectOnderzoekstechnieken.aux
- : \bibdata{C:16
- :              }
-I'm skipping whatever remains of this command
 I found no \citation commands---while reading file ProjectOnderzoekstechnieken.aux
-I found no database files---while reading file ProjectOnderzoekstechnieken.aux
+I found no \bibdata command---while reading file ProjectOnderzoekstechnieken.aux
 I found no \bibstyle command---while reading file ProjectOnderzoekstechnieken.aux
-(There were 4 error messages)
+(There were 3 error messages)

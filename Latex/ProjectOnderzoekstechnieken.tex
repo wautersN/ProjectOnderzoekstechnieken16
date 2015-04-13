@@ -1,7 +1,5 @@
-\usepackage{natbib}
 \documentclass[conference]{IEEEtran}
 \begin{document}
-
 \title{Project BlackJack}
 \author{
 \IEEEauthorblockN{Jelle Biebaut, Daan Delva, Jari Meire, Niels Wauters}
@@ -11,10 +9,10 @@
 \IEEEpeerreviewmaketitle
 
 \section{Inleiding}
-Blackjack is een {\it card game} met eenvoudige spelregels. Een speler probeert een score te behalen zo dicht mogelijk bij 21 zonder dat hij erboven gaat, hetzelfde geldt voor de dealer. Zolang dat geen van beide boven de 21 gaat, wint de hoogste score. Als beide spelers een gelijke score hebben, wint de dealer.
-Maar achter dit spel zijn verschillende strategie\"en bedacht om zo veel mogelijk te kunnen winnen. In deze paper gaan we uitzoeken welke opties je het beste resultaat geven. Hierbij maken we gebruik van simulatie-software om zo sneller tot de resultaten te komen.\\*
+In het kader van het opleidingsonderdeel Onderzoekstechnieken kregen we de opdracht om onderzoek te voeren naar blackjack. Blackjack is een {\it card game} met eenvoudige spelregels. Een speler probeert een score te behalen zo dicht mogelijk bij 21 zonder dat hij erboven gaat, hetzelfde geldt voor de dealer. Zolang dat geen van beide boven de 21 gaat, wint de hoogste score. Als beide spelers een gelijke score hebben, wint de dealer.
+Maar achter dit spel zijn verschillende strategie\"en bedacht om zo veel mogelijk te kunnen winnen. De bedoeling van dit onderzoek is om een zo goed mogelijke strategie te vinden voor het spelen van dit spelletje. We maken hiervoor gebruik van simulatie-software om tot onze resultaten te komen.\\*
  
-\hfill April 12, 2015
+\hfill April 20, 2015
 
 \subsection{Onderzoeksvraag}
 \textbf{Welke strategie geeft je het meeste kans op een positieve winst ?}\\*
@@ -38,14 +36,14 @@ verdubbeling na een split is niet toegestaan. Strategie 2 is de combinatie van d
 verdubbeling na een split is toegestaan. En zo gaan we verder tot we in elke strategie een andere combinatie hebben van onze opties.\\*
 Hierna gaan we alle strategie\"en vergelijken met elkaar en halen we er de 4 beste uit en daar passen we onze laatste optie op toe, \textit{surrender}. Onze simulatie doen we steeds met 6 decks en de speler mag split doen tot een maximum van 4 handen.
 
-\subsection{Welke van onze eigen strategie is het beste ? (Deel 1)}
+\subsection{Welke van onze eigen strategie is de beste ? (Deel 1)}
 In deze paragraaf gaan we onze beste 4 strategie\"en bespreken zonder de surrender, daarna bespreken we de beste 2 strategie\"en met surrender.\\*
 
 
 \paragraph{Strategie 1}
 % Dit is onze strategie 2 in het document "Soorten strategie\"en"
 
-Deze strategie bestaat uit de combinatie van dealer stands op een soft 17, we verdubbelen de inzet bij alle paren en verdubbeling van de inzet na een split is toegestaan. \footnote{ Bij bovenstaande tabel betekenen volgende letters dit: S staat voor player Stand, H staat voor player Hit, D staat voor Double en Hit als double toegestaan is, DS staat voor Double en Stand als double niet toegestaan is en P staat voor Split}
+Deze strategie bestaat uit de combinatie van dealer stands op een soft 17, we verdubbelen de inzet bij alle paren en verdubbeling van de inzet na een split is toegestaan. \footnote{ Bij bovenstaande tabel betekenen volgende letters dit: S staat voor player Stand, H staat voor player Hit, D staat voor Double en Hit als double toegestaan is, DS staat voor Double en Stand als double niet toegestaan is en P staat voor Split. Hetzelfde geldt voor de andere tabellen.}
 Dan bekomen we deze \textit{basic strategy} :
 
 \begin{table}[ht]
@@ -159,7 +157,7 @@ Dan bekomen we deze \textit{basic strategy} :
 15                           & S & S & S & S & S & H & H & H & H & H  \\ \hline
 13-14                        & S & S & S & S & S & H & H & H & H & H  \\ \hline
 12                           & H & H & S & S & S & H & H & H & H & H  \\ \hline
-11                           & D & D & D & D & D & D & D & D & D & H  \\ \hline
+11                           & D & D & D & D & D & D & D & D & D & D  \\ \hline
 10                           & D & D & D & D & D & D & D & D & H & H  \\ \hline
 9                            & H & D & D & D & D & H & H & H & H & H  \\ \hline
 5-8                          & H & H & H & H & H & H & H & H & H & H  \\ \hline
@@ -235,18 +233,60 @@ A,A                          & P & P & P & P & P & P & P & P & P & P  \\ \hline
 \end{tabular}
 \end{table}
 
+\paragraph{Strategie 5}
+% Dit is onze strategie 8 in het document "Soorten strategie\"en"
+Deze strategie bestaat uit de combinatie van dealer hits op een soft 17, we verdubbelen de inzet bij alle paren en verdubbeling van inzet na een split is niet toegestaan.\\*
+Dan bekomen we deze \textit{basic strategy} :
+
+\begin{table}[ht]
+\tiny
+\centering
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+
+{Player hand} & \multicolumn{10}{c|}{Dealer's face-up card}     \\ \cline{2-11} 
+                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
+\multicolumn{11}{|c|}{\textbf{Hard totals}}                           \\ \hline
+17-20       								 & S & S & S & S & S & S & S & S & S & S  \\ \hline
+16                           & S & S & S & S & S & H & H & H & H & H  \\ \hline
+15                           & S & S & S & S & S & H & H & H & H & H  \\ \hline
+13-14                        & S & S & S & S & S & H & H & H & H & H  \\ \hline
+12                           & H & H & S & S & S & H & H & H & H & H  \\ \hline
+11                           & D & D & D & D & D & D & D & D & D & D  \\ \hline
+10                           & D & D & D & D & D & D & D & D & H & H  \\ \hline
+9                            & H & D & D & D & D & H & H & H & H & H  \\ \hline
+5-8                          & H & H & H & H & H & H & H & H & H & H  \\ \hline
+
+\multicolumn{11}{|c|}{\textbf{Soft totals}}                           \\ \hline
+                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
+A,9                          & S & S & S & S & S & S & S & S & S & S  \\ \hline
+A,8                          & S & S & S & S & DS & S & S & S & S & S  \\ \hline
+A,7                          & DS & DS & DS & DS & S & S & S & H & H & H  \\ \hline
+A,6                          & H & D & D & D & D & H & H & H & H & H  \\ \hline
+A,4-A,5                      & H & H & D & D & D & H & H & H & H & H  \\ \hline
+A,2-A,3                      & H & H & H & D & D & H & H & H & H & H  \\ \hline
+
+\multicolumn{11}{|c|}{\textbf{Pairs}}                                 \\ \hline
+                             & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & A \\ \hline
+A,A                          & P & P & P & P & P & P & P & P & P & P  \\ \hline
+10,10                        & S & S & S & S & S & S & S & S & S & S  \\ \hline
+9,9                          & P & P & P & P & P & S & P & P & S & S  \\ \hline
+8,8                          & P & P & P & P & P & P & P & P & P & P  \\ \hline
+7,7                          & P & P & P & P & P & P & H & H & H & H  \\ \hline
+6,6                          & H & P & P & P & P & H & H & H & H & H  \\ \hline
+5,5                          & D & D & D & D & D & D & D & D & H & H  \\ \hline
+4,4                          & H & H & H & P & P & H & H & H & H & H  \\ \hline
+2,2-3,3                      & H & H & P & P & P & P & H & H & H & H  \\ \hline
+\end{tabular}
+\end{table}
 
 \paragraph{De beste strategie}
 
-Uit onze resultaten na het simuleren van al onze strategie\"en zijn bovenstaande 4 er het beste uitgekomen. En dus opteren we ervoor om deze 4 te vergelijken met elkaar. \\*
-
+Uit onze resultaten na het simuleren van al onze strategie\"en zijn bovenstaande 5 er het beste uitgekomen. En dus opteren we ervoor om deze 5 te vergelijken met elkaar. \\*
 Strategie 1 heeft een average profit van -0,29 en een house edge van 0,29. Daarbij hebben we een kans van bijna 32\% dat onze winst groter is dan 5\$ en een kans van 34\% dat we een verlies leiden van groter dan 5\$. \\*
-
-Strategie 2 heeft een average profit van -0,46 en een house edge van 0,46. Daarbij hebben we een kans van 31,21\% dat onze winst groter is dan 5\$ en een kans van 34\% dat we een verlies leiden van groter dan 5\$.\\*
-
-Strategie 3 heeft een average profit van -0,87 en een house edge van 0,87. Daarbij hebben we een kans van 30,85\% dat onze winst groter is dan 5\$ en een kans van bijna 36\% dat we een verlies leiden van groter dan 5\$.\\*
-
-Strategie 4 heeft een average profit van -0,78 en een house edge van 0,78. Daarbij hebben we een kans van bijna 30,5\% dat onze winst groter is dan 5\$ en een kans van 35,57\% dat we een verlies leiden van groter dan 5\$. \\*
+Strategie 2 ... \\*
+Strategie 3 ... \\*
+Strategie 4 ... \\*
 
 
 
@@ -277,8 +317,9 @@ In deze paragraaf onderzoeken we welke van bovenstaande strategieën het beste i
 
 \begin{thebibliography}{1}
 
-\bibliography{C:\Users\Daan\Desktop\BlackJack\ProjectOnderzoekstechnieken16\Latex\blackjack}
-
+\bibitem{IEEEhowto:kopka}
+H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
 
 \end{thebibliography}
 
