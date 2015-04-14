@@ -1,0 +1,32 @@
+\begin{thebibliography}{1}
+
+\bibitem{Coltin2012}
+Kevin Coltin.
+\newblock {\em Optimal Strategy for Casino Blackjack: A Markov Chain Approach}.
+\newblock PhD thesis, Arizona State University, 2012.
+
+\bibitem{O.Thorp1997}
+Edward O.Thorp.
+\newblock The kelly criterion in blackjack sports betting, and the stock
+  market.
+\newblock Master's thesis, Edward O. Thorp and Associates, Newport Beach, CA
+  92660, USA, 1997.
+
+\bibitem{Wakin2004}
+Michael~B. Wakin and Christopher~J. Rozell.
+\newblock {\em A Markov Chain Analysis of Blackjack Strategy}.
+\newblock PhD thesis, Department of Electrical and Computer Engineering, Rice
+  University, 2004.
+
+\bibitem{Yu2012}
+Jonathan Yu.
+\newblock {\em Markovian Blackjack Simulator}.
+\newblock PhD thesis, University of Massachusetts: Lowell, 2012.
+
+\bibitem{Yu2009}
+Kam Yu and Huan Wang.
+\newblock {\em Economic Analysis of Blackjack: An Application of Prospect
+  Theory}.
+\newblock PhD thesis, University of Toronto, 2009.
+
+\end{thebibliography}
