@@ -2,9 +2,10 @@
 % Encoding: Cp1252
 
 
-@Article{,
+@PhdThesis{Coltin2012,
   Title                    = {Optimal Strategy for Casino Blackjack: A Markov Chain Approach},
   Author                   = {Kevin Coltin},
+  School                   = {Arizona State University},
   Year                     = {2012},
 
   File                     = {:C\:\\Users\\Daan\\Desktop\\BlackJack\\optimal_strategy_for_casino_blackjack.pdf:PDF},
@@ -12,9 +13,9 @@
   Timestamp                = {2015.03.14}
 }
 
-@MastersThesis{,
-  Title                    = {THE KELLY CRITERION IN BLACKJACK SPORTS BETTING, AND THE STOCK MARKET},
-  Author                   = {EDWARD O. THORP},
+@MastersThesis{O.Thorp1997,
+  Title                    = {The Kelly Criterion in blackjack sports betting, and the stock market},
+  Author                   = {Edward O.Thorp},
   School                   = {Edward O. Thorp and Associates, Newport Beach, CA 92660, USA},
   Year                     = {1997},
 
@@ -23,30 +24,43 @@
   Timestamp                = {2015.03.14}
 }
 
-@PhdThesis{,
+@Misc{Engine2015,
+  Title                    = {Blackjack Basic Strategy Engine},
+
+  Author                   = {Ken Smith},
+  Year                     = {2015},
+
+  __markedentry            = {[Jelle:2]},
+  Organization             = {Bayview Strategies LLC},
+  Owner                    = {Jelle},
+  Timestamp                = {2015.04.16},
+  Url                      = {https://www.blackjackinfo.com/}
+}
+
+@PhdThesis{Wakin2004,
   Title                    = {A Markov Chain Analysis of Blackjack Strategy},
   Author                   = {Michael B. Wakin and Christopher J. Rozell},
-  School                   = {Department of Electrical and Computer Engineering,
-Rice University},
+  School                   = {Department of Electrical and Computer Engineering, Rice University},
+  Year                     = {2004},
 
   File                     = {:C\:\\Users\\Daan\\Desktop\\BlackJack\\mcbj.pdf:PDF},
   Owner                    = {Daan},
   Timestamp                = {2015.03.14}
 }
 
-@PhdThesis{,
+@PhdThesis{Yu2012,
   Title                    = {Markovian Blackjack Simulator},
   Author                   = {Jonathan Yu},
   School                   = {University of Massachusetts: Lowell},
+  Year                     = {2012},
 
-  File                     = {:C\:\\Users\\Daan\\Desktop\\BlackJack\\KellyCriterion2007.pdf:PDF},
+  File                     = {:yu_blackjack_mdp.pdf:PDF},
   Owner                    = {Daan},
   Timestamp                = {2015.03.14}
 }
 
-@PhdThesis{,
-  Title                    = {Economic Analysis of Blackjack: An Application of
-Prospect Theory},
+@PhdThesis{Yu2009,
+  Title                    = {Economic Analysis of Blackjack: An Application of Prospect Theory},
   Author                   = {Kam Yu and Huan Wang},
   School                   = {University of Toronto},
   Year                     = {2009},

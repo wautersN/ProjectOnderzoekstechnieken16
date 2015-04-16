@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.10)  14 APR 2015 22:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.10)  16 APR 2015 15:40
 entering extended mode
 **ProjectOnderzoekstechnieken.tex
 
@@ -143,33 +143,66 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks17
 \@floatcapt=\box28
 )
+("C:\Program Files\MikTex\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\MikTex\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files\MikTex\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+("C:\Program Files\MikTex\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen119
+\extrarowheight=\dimen120
+\NC@list=\toks18
+\extratabsurround=\skip44
+\backup@length=\skip45
+)
+\everycr=\toks19
+\minrowclearance=\skip46
+)
+\rownum=\count93
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
 (C:\Users\Jelle\Documents\GitHub\ProjectOnderzoekstechnieken16\Latex\ProjectOnd
 erzoekstechnieken.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
  ("C:\Program Files\MikTex\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count93
-\scratchdimen=\dimen119
+\scratchcounter=\count94
+\scratchdimen=\dimen121
 \scratchbox=\box29
-\nofMPsegments=\count94
-\nofMParguments=\count95
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count96
-\MPscratchDim=\dimen120
-\MPnumerator=\count97
-\makeMPintoPDFobject=\count98
-\everyMPtoPDFconversion=\toks19
+\nofMPsegments=\count95
+\nofMParguments=\count96
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count97
+\MPscratchDim=\dimen122
+\MPnumerator=\count98
+\makeMPintoPDFobject=\count99
+\everyMPtoPDFconversion=\toks21
 )
 Underfull \hbox (badness 10000) in paragraph at lines 19--21
 []\OT1/ptm/m/n/10 In het kader van het oplei-d-ing-son-derdeel
@@ -198,122 +231,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-[1{C:/Users/Jelle/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+! I can't write on file `ProjectOnderzoekstechnieken.pdf'.
+Please type another file name for output
+! Emergency stop.
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.105 
+      
+*** (job aborted, file error in nonstop mode)
 
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
-
- []
-
-[2]
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no « in font ptmr7t!
-
-Underfull \hbox (badness 2376) in paragraph at lines 264--265
-[]\OT1/ptm/m/n/10 In deze para-graaf on-der-zoeken we welke van onze
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 463--464
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 465--466
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 467--468
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 469--470
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 471--472
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--474
-
- []
-
-<GrafiekProfit.jpeg, id=14, 628.3475pt x 502.87875pt>
-File: GrafiekProfit.jpeg Graphic file (type jpg)
- <use GrafiekProfit.jpeg>
-Package pdftex.def Info: GrafiekProfit.jpeg used on input line 481.
-(pdftex.def)             Requested size: 262.04987pt x 209.71901pt.
-
-Overfull \hbox (9.0pt too wide) in paragraph at lines 481--482
- [][] 
- []
-
-Missing character: There is no Ã in font ptmr7t!
-Missing character: There is no « in font ptmr7t!
-
-(C:\Users\Jelle\Documents\GitHub\ProjectOnderzoekstechnieken16\Latex\ProjectOnd
-erzoekstechnieken.bbl)
-
-** Conference Paper **
-Before submitting the final camera ready copy, remember to:
-
- 1. Manually equalize the lengths of two columns on the last page
- of your paper;
-
- 2. Ensure that any PostScript and/or PDF output post-processing
- uses only Type 1 fonts and that every step in the generation
- process uses the appropriate paper size.
-
-[4 <C:/Users/Jelle/Documents/GitHub/ProjectOnderzoekstechnieken16/Latex/Grafiek
-Profit.jpeg>]
-(C:\Users\Jelle\Documents\GitHub\ProjectOnderzoekstechnieken16\Latex\ProjectOnd
-erzoekstechnieken.aux) ) 
+ 
 Here is how much of TeX's memory you used:
- 1888 strings out of 493921
- 29747 string characters out of 3148886
- 166377 words of memory out of 3000000
- 5204 multiletter control sequences out of 15000+200000
- 39718 words of font info for 73 fonts, out of 3000000 for 9000
+ 2426 strings out of 493921
+ 35543 string characters out of 3148886
+ 122691 words of memory out of 3000000
+ 5748 multiletter control sequences out of 15000+200000
+ 27686 words of font info for 62 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,8n,19p,630b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MikTex/fonts/enc/dvips/fontname/8r.en
-c}<C:/Program Files/MikTex/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/M
-ikTex/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MikTex/fonts/type1/urw
-/times/utmri8a.pfb>
-Output written on ProjectOnderzoekstechnieken.pdf (4 pages, 106260 bytes).
-PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 41i,9n,35p,521b,210s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
