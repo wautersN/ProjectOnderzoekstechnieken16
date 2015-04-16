@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.10)  16 APR 2015 15:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.2.10)  16 APR 2015 18:46
 entering extended mode
 **ProjectOnderzoekstechnieken.tex
 
@@ -218,35 +218,152 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 33.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 33.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 34.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 34.
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-! I can't write on file `ProjectOnderzoekstechnieken.pdf'.
-Please type another file name for output
-! Emergency stop.
-<to be read again> 
-                   \endgroup \set@typeset@protect 
-l.105 
-      
-*** (job aborted, file error in nonstop mode)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 36.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 36.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 36.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 36.
 
- 
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+[1{C:/Users/Jelle/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
+
+ []
+
+[2]
+Underfull \hbox (badness 2376) in paragraph at lines 266--267
+[]\OT1/ptm/m/n/10 In deze para-graaf on-der-zoeken we welke van onze
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 470--471
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 474--475
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--481
+
+ []
+
+<GrafiekProfit.jpeg, id=14, 628.3475pt x 502.87875pt>
+File: GrafiekProfit.jpeg Graphic file (type jpg)
+ <use GrafiekProfit.jpeg>
+Package pdftex.def Info: GrafiekProfit.jpeg used on input line 487.
+(pdftex.def)             Requested size: 262.04987pt x 209.71901pt.
+
+Overfull \hbox (9.0pt too wide) in paragraph at lines 487--489
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--496
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
+
+ []
+
+[4 <C:/Users/Jelle/Documents/GitHub/ProjectOnderzoekstechnieken16/Latex/Grafiek
+Profit.jpeg>]
+(C:\Users\Jelle\Documents\GitHub\ProjectOnderzoekstechnieken16\Latex\ProjectOnd
+erzoekstechnieken.bbl)
+
+** Conference Paper **
+Before submitting the final camera ready copy, remember to:
+
+ 1. Manually equalize the lengths of two columns on the last page
+ of your paper;
+
+ 2. Ensure that any PostScript and/or PDF output post-processing
+ uses only Type 1 fonts and that every step in the generation
+ process uses the appropriate paper size.
+
+[5
+
+]
+(C:\Users\Jelle\Documents\GitHub\ProjectOnderzoekstechnieken16\Latex\ProjectOnd
+erzoekstechnieken.aux) ) 
 Here is how much of TeX's memory you used:
- 2426 strings out of 493921
- 35543 string characters out of 3148886
- 122691 words of memory out of 3000000
- 5748 multiletter control sequences out of 15000+200000
- 27686 words of font info for 62 fonts, out of 3000000 for 9000
+ 2454 strings out of 493921
+ 36209 string characters out of 3148886
+ 214082 words of memory out of 3000000
+ 5756 multiletter control sequences out of 15000+200000
+ 39718 words of font info for 73 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 41i,9n,35p,521b,210s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 41i,9n,35p,868b,215s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MikTex/fonts/enc/dvips/fontname/8r.en
+c}<C:/Program Files/MikTex/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/M
+ikTex/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MikTex/fonts/type1/urw
+/times/utmri8a.pfb>
+Output written on ProjectOnderzoekstechnieken.pdf (5 pages, 118278 bytes).
+PDF statistics:
+ 32 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

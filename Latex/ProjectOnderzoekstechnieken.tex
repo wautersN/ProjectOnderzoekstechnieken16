@@ -29,11 +29,13 @@ Nadien vergelijken we de resultaten om zo te bepalen bij welke strategie de kans
 Achteraf zullen we 4 strategie\"en bespreken in deze opdracht.
 
 \subsection{Deelonderzoeksvraag} 
-\textbf{Welke opties geven je het meeste kans op een positieve winst ?} 
-\footnote{ Deze opties zijn {\it dealer stand of hit op een soft 17}, {\it verdubbelen van inzet bij elk paar of enkel bij 9, 10 of 11},
-    {\it verdubbelen van inzet na elke split is toegestaan of niet} en {\it surrenderen of niet}}\\*
+\textbf{Welke opties geven je het meeste kans op een positieve winst ?} \\*
+
 We gaan na welke van deze opties de meest effici\"entste combinatie is en waarbij we dus de meeste kans hebben op een positieve winst.
-We onderzoeken eerst alle strategie\"en met onze eerste 3 opties (dealer stand of hit op een soft 17, verdubbelen van inzet bij elk paar of enkel bij 9, 10 of 11 en verdubbelen van inzet na elke split is toegestaan of niet). Daarna kiezen we de beste 4 strategie\"en en passen we onze laatste optie daar op toe om zo tot onze beste strategie te komen. \\*
+We onderzoeken eerst alle strategie\"en met onze eerste 3 opties
+	\footnote{ Deze opties zijn {\it dealer stand of hit op een soft 17}, {\it verdubbelen van inzet bij elk paar of enkel bij 9, 10 of 11} en {\it verdubbelen van inzet na elke split is toegestaan of niet}}. 
+Daarna kiezen we de beste 4 strategie\"en en passen we onze laatste optie daar op toe om zo tot onze beste strategie te komen 
+	\footnote{{\it Surrenderen of niet}}. \\*
 We zorgen ervoor dat onze inzet nooit veranderd, onze standaard inzet is steeds 1\$, via onze simulatie software krijgen we steeds een \textit{average profit}, \textit{house edge}, de kans op een winst groter dan 5\$ en de kans op een verlies groter dan 5\$. 
 
 \newpage
@@ -473,7 +475,7 @@ Strategie 3 met surrender heeft een average profit van -0,29 en een house edge v
  
 Strategie 4 met surrender heeft een average profit van -1,15 en een house edge van 1,15. Daarbij hebben we een kans van iets meer dan 29\% dat onze winst groter is dan 5\$ en een kans van bijna 37\% dat we een verlies leiden van groter dan 5\$. \\*
  
-Hieruit kunnen we dus concluderen dat strategie 3 met surrender de beste strategie is die we kunnen hebben. Zo zien we maar dat het veranderen van 1 variabele grote veranderingen kan teweeg brengen. Zo is strategie 1 niet meer de beste strategie met surrender terwijl die strategie wel de betere was zonder surrender. Bovendien gaf strategie 3 ons het minste kans op winst zonder surrender en we die kans nu verkleind hebben tot de best mogelijke strategie.\\*
+Hieruit kunnen we dus concluderen dat strategie 3 met surrender de beste strategie is die we kunnen hebben met surrender. Zo zien we maar dat het veranderen van 1 variabele grote veranderingen kan teweeg brengen. Zo is strategie 1 niet meer de beste strategie met surrender terwijl die strategie wel de betere was zonder surrender. Bovendien gaf strategie 3 ons het minste kans op winst zonder surrender.\\*
 
 Dit zijn lang niet alle mogelijke strategie\"en maar we hebben besloten om niet elke optie op te nemen in ons onderzoek. Zo konden we ook de optie nemen om de dealer te laten 'peaken' naar zijn eerste kaart. Daardoor is ons onderzoek een klein beetje onvolledig.\\*\\*\\*\\*
 
@@ -488,13 +490,13 @@ Dit zijn lang niet alle mogelijke strategie\"en maar we hebben besloten om niet 
 	\label{fig:GrafiekProfit}
 \end{figure}
 
-Uit de grafiek kunnen we 2 dingen afeiden, als eerste kunnen we zien welke strategie het beste is. Als tweede kunnen we kijken welke soort strategie\"en, met of zonder surrender, ons gemiddeld het meeste kans op winst geven. \\*
-Als eerste concluderen we dus dat onze strategie 1 zonder surrender en onze strategie 3 met surrender het meeste kans geven op winst. Beiden halen ze een 'average profit' van -0,29 waardoor ze veruit de beste zijn. Om hieruit dus de beste strategie de kiezen gaan we kijken welke kans elke strategie heeft op een winst of verlies van meer of minder dan 5\$. Strategie 1 heeft een kans van 34,09\% op een verlies die groter is dan 5\$. Uit dezelfde simulatie krijgen bij strategie 3 nagenoeg juist hetzelfde resultaat. Aan deze gegevens kunnen we dus ook niet zien welke de beste is. Strategie 1 heeft een kans van 31,92\% op een winst die groter is dan 5\$ terwijl strategie 3 bij dezelfde winst een kans heeft van 32,28\%. Het verschil is weliswaar klein maar er is een verschil waardoor strategie 3 onze beste strategie wordt. \\*
+Uit de grafiek kunnen we 2 dingen afeiden, als eerste kunnen we zien welke strategie het beste is. Als tweede kunnen we kijken welke soort strategie, met of zonder surrender, ons gemiddeld het meeste kans op winst geeft. \\*
+Als eerste concluderen we dus dat strategie 1 zonder surrender en strategie 3 met surrender het meeste kans geven op winst. Beiden halen ze een 'average profit' van -0,29 waardoor ze veruit de beste zijn. Om hieruit dus de beste strategie de kiezen gaan we kijken welke kans elke strategie heeft op een winst of verlies van meer of minder dan 5\$. Strategie 1 heeft een kans van 34,09\% op een verlies die groter is dan 5\$. Uit dezelfde simulatie krijgen bij strategie 3 nagenoeg juist hetzelfde resultaat. Aan deze gegevens kunnen we dus niet zien welke de beste is. Strategie 1 heeft een kans van 31,92\% op een winst die groter is dan 5\$, terwijl strategie 3 bij dezelfde winst een kans heeft van 32,28\%. Het verschil is weliswaar klein maar er is een verschil waardoor strategie 3 onze beste strategie wordt. \\*
 De tweede conclusie is dat strategie\"en zonder surrender ons gemiddeld een beter average profit opleveren. Gemiddeld hebben strategie\"en zonder surrender een average profit van -0,6 , terwijl dit bij strategie\"en met surrender -0,675 is. \\*
 
-Waar we wel rekening mee moet houden is het feit dat we een passief betting systeem hebben. We zetten steeds maar 1\$ in en verdubbelen na een split of bij paren waardoor men nooit veel winst zal maken als de speler bijvoorbeeld heel goede kaarten denkt te hebben en dus zijn inzet drastisch kan verhogen. Dat heeft men niet bij deze strategie en kan een reden zijn waarom de average profit van de strategie\"en negatief zijn.\\*
+Waar we wel rekening mee moet houden is het feit dat we een passief \textit{betting systeem} hebben. We zetten steeds maar 1\$ in en verdubbelen na een split of bij paren, waardoor men nooit veel winst zal maken als de speler bijvoorbeeld heel goede kaarten denkt te hebben en dus zijn inzet drastisch kan verhogen. Dat heeft men niet bij deze strategie\"en en dit kan een reden zijn waarom de average profit van de strategie\"en negatief is.\\*
 
-Deze strategie is tamelijk goed, niet perfect maar dat is geen enkele strategie. Men heeft een relatief goede kans om winst te maken maar na lange tijd spelen zal de speler in het totaal verlies geleden hebben daardoor is deze strategie niet aan te raden. 
+Strategie 3 is tamelijk goed, niet perfect maar dat is geen enkele strategie. Men heeft een relatief goede kans om winst te maken, maar na lange tijd spelen, zal de speler in het totaal, verlies geleden hebben daardoor is deze strategie niet aan te raden. 
 
 
 \newpage
